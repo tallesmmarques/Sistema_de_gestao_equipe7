@@ -1,7 +1,7 @@
 function Topbar() {
   return React.createElement(
     "div",
-    { className: "topbar" },
+    { className: "topbar wrapper" },
     React.createElement(
       "a",
       { href: "index.html", className: "logo" },
@@ -10,6 +10,11 @@ function Topbar() {
     React.createElement(
       "div",
       { className: "login_bar" },
+      React.createElement(
+        "a",
+        { href: "quem_somos.html" },
+        "Quem Somos"
+      ),
       React.createElement(
         "a",
         { href: "sing_in.html" },
