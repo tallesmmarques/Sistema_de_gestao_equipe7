@@ -40,22 +40,34 @@ body{
 } /*o que vai vir na pagina, tudo abaixo da topbar*/
 
 .login {
-    background-color: white;
+    background-color: #374251;
     align-items: center;
-    margin: 50px;
+    margin: 75px;
     width: 40%;
-
+    border-radius: 20px;
+    height:400px;
 } /*div do login e registro*/
+
+.login img{
+    margin: 20px;
+    align-self: center;
+} /*Logo na tela de login */
 
 .login form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    margin: 15px;
 } /*div do login e registro*/
-
 
 p.extra_msn{
     color: gray;
 } /*esqueceu senha?, não tem registro, etc...*/
 
-.cabecario{} /*mensagem acima do formulario*/
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}
