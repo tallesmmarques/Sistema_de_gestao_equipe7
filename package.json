@@ -2,10 +2,10 @@
   "name": "sistema_de_gestao_equipe7",
   "version": "1.2.0",
   "description": "Sistema de gestao para a cooperativa COOPERPE",
-  "main": "index.html",
+  "main": "./index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx babel --watch src --out-dir . --presets react-app/prod"
+    "traduzir-jsx": "npx babel --watch src --out-dir . --presets react-app/prod"
   },
   "repository": {
     "type": "git",

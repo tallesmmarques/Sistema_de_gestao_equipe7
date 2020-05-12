@@ -4,7 +4,7 @@ function Topbar() {
     { className: "topbar" },
     React.createElement(
       "a",
-      { href: "./index.html", className: "logo" },
+      { href: "index.html", className: "logo" },
       "COOPERPE"
     ),
     React.createElement(
@@ -12,12 +12,12 @@ function Topbar() {
       { className: "login_bar" },
       React.createElement(
         "a",
-        { href: "./login/sing_in.html" },
+        { href: "sing_in.html" },
         "Sing In"
       ),
       React.createElement(
         "a",
-        { href: "./login/sing_up.html" },
+        { href: "sing_up.html" },
         "Sing Up"
       )
     )
