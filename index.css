@@ -7,7 +7,7 @@ body{
     position: fixed; top: 0;
     height: 50px;
     width: 100%;
-    background-color: gray;
+    background-color: #374251;
     display: flex;
     justify-content: space-between;
 } /*barra de cima do site com a logo*/
@@ -18,14 +18,18 @@ body{
     padding: 15px 15px;
 }
 .topbar a:hover{
-    background-color: #707070;
+    background-color: #4b5a6e;
 }
 .login_bar{
     display: flex;
     justify-content: space-between;
     height: 100%;
 } /*div com sing in e sing up na topbar*/
-.logo{} /*a logo na topbar "por enquanto COOPERPE"*/
+
+.logo{
+
+} /*a logo na topbar "por enquanto COOPERPE"*/
+
 .conteudo{
     margin-top: 50px; /*espaço ocupado pela topbar*/
     margin-bottom: 50px;
@@ -34,15 +38,24 @@ body{
     flex-direction: column;
     align-items: center;
 } /*o que vai vir na pagina, tudo abaixo da topbar*/
+
 .login {
+    background-color: white;
+    align-items: center;
+    margin: 50px;
+    width: 40%;
 
 } /*div do login e registro*/
+
 .login form{
     display: flex;
     flex-direction: column;
     align-items: center;
 } /*div do login e registro*/
+
+
 p.extra_msn{
     color: gray;
 } /*esqueceu senha?, não tem registro, etc...*/
+
 .cabecario{} /*mensagem acima do formulario*/
