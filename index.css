@@ -110,3 +110,41 @@ p.extra_msn{
     height: 80px;
 }
 
+/*SOBRE A EMPRESA*/
+.titulo{
+    color: #374251;
+    margin: 30px 0 60px 0;
+    font-size: 35px;
+    text-align: center;
+}
+
+.titulo::after {
+    content: "";
+    border-top: 2px solid #374251;
+    width: 15%;
+    position: absolute;
+    top: 90px;
+    left: 42.5%;
+  }
+
+.subtitulo{
+    font-size: 18px;
+    color: #a7e66e;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+.lista{
+    list-style: none;
+    padding-left: 0;
+  }
+  
+.lista li {
+    line-height: 20px;
+  }
+  
+.lista li a {
+    color: #374251;
+    margin-right: 5px;
+    font-size: 20px
+  }
