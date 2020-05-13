@@ -134,6 +134,11 @@ p.extra_msn{
     font-weight: bold;
   }
 
+.recuo{
+    text-indent:2em;
+    text-align: justify;
+}
+
 .lista{
     list-style: none;
     padding-left: 0;
@@ -141,6 +146,7 @@ p.extra_msn{
   
 .lista li {
     line-height: 20px;
+    
   }
   
 .lista li a {
