@@ -2,21 +2,15 @@
 <html lang="pt-br">
 <head>
     <title>COOPERPE - Sing Up</title>
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="topbar">
-        <a href="../index.html" class="logo">COOPERPE</a>
-        <div class="login_bar">
-            <a href="./sing_in.html">Sing In</a>
-            <a href="./sing_up.html">Sing Up</a>
-        </div>
-    </div>
+    <div id="topbar"></div>
     <div class="conteudo login">
-        <img src="../imagens/logo.png" alt="COOPERPE" height="150px" width="150px">
+        <img src="imagens/logo.png" alt="COOPERPE" height="150px" width="150px">
         <h2 class="cabecario">Seja bem vindo a Família</h2>
         <div class="login">
-            <form action="../index.html" method="get">
+            <form action="index.html" method="get">
                 <label>Nome</label>
                 <input type="text" name="name">
                 <label>Email</label>
@@ -33,5 +27,10 @@
             </form>
         </div>
     </div>
+
+    <!--Isso links o JS com o React (eu acho kkk)-->  
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="topbar.js"></script>
 </body>
 </html>
