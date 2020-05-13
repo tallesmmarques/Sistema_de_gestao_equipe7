@@ -76,12 +76,26 @@ p.extra_msn{
 
 .cabecario{} /*mensagem acima do formulario*/
 
+/*HEADER*/
+.header-wrapper {
+    background-color: #374251;
+    width: 100%;
+    height: 80px;
+    margin-bottom: -40px;
+}
+
+.brand{
+    width: auto;
+    height: 80px;
+    margin-top: -13px;
+    padding: 0 10px;
+}
 
 /*FOOTER*/
 .footer-wrapper {
     background-color: #374251;
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 .nav-link {
     color: white;
@@ -93,6 +107,6 @@ p.extra_msn{
 }
 
 .navbar {
-    height: 100px;
+    height: 80px;
 }
 
