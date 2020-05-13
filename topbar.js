@@ -17,6 +17,11 @@ function Topbar() {
       ),
       React.createElement(
         "a",
+        { href: "produtos.html" },
+        "Produtos"
+      ),
+      React.createElement(
+        "a",
         { href: "sing_in.html" },
         "Sing In"
       ),
