@@ -29,6 +29,19 @@ h2{
     height: 80px;
 }
 
+.menu-icon{
+    color: black;
+}
+
+.link-menu {
+    color:black; 
+}
+
+.link-menu:hover {
+    text-decoration: none;
+    color: black;
+}
+
 /*HEADER*/
 .header-wrapper {
     background-color: #374251;
