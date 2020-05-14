@@ -154,3 +154,23 @@ p.extra_msn{
     margin-right: 5px;
     font-size: 20px
   }
+
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+
+.col1{
+    width: 160px;
+}
+
+.col2{
+    width: 640;
+}
