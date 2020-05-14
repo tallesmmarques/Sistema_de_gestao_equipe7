@@ -99,6 +99,70 @@ function Topbar() {
               { className: "nav-link active", href: "sing_up.html" },
               "Registrar"
             )
+          ),
+          React.createElement(
+            "li",
+            null,
+            React.createElement(Menu, null)
+          )
+        )
+      )
+    )
+  );
+}
+function Menu() {
+  return React.createElement(
+    "div",
+    { className: "panel-group" },
+    React.createElement(
+      "div",
+      { className: "panel panel-default" },
+      React.createElement(
+        "div",
+        { className: "panel-heading" },
+        React.createElement(
+          "h4",
+          { className: "panel-title" },
+          React.createElement(
+            "ul",
+            null,
+            React.createElement(
+              "li",
+              { className: "nav-link" },
+              React.createElement(
+                "a",
+                { className: "link-menu", "data-toggle": "collapse", href: "#collapse1" },
+                React.createElement(
+                  "svg",
+                  { className: "bi bi-list", width: "1.5em", height: "1.5em", viewBox: "0 0 16 16", fill: "currentColor", xmlns: "http://www.w3.org/2000/svg" },
+                  React.createElement("path", { "fill-rule": "evenodd", d: "M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z", "clip-rule": "evenodd" })
+                ),
+                "Menu"
+              )
+            )
+          )
+        )
+      ),
+      React.createElement(
+        "div",
+        { id: "collapse1", className: "panel-collapse collapse" },
+        React.createElement(
+          "ul",
+          { className: "list-group" },
+          React.createElement(
+            "li",
+            { className: "list-group-item" },
+            "One"
+          ),
+          React.createElement(
+            "li",
+            { className: "list-group-item" },
+            "Two"
+          ),
+          React.createElement(
+            "li",
+            { className: "list-group-item" },
+            "Three"
           )
         )
       )
