@@ -30,18 +30,20 @@ h2{
 }
 
 .menu-icon{
-    color: black;
+    color: white;
 }
 
 .link-menu {
-    color:black; 
+    color:white; 
 }
 
 .link-menu:hover {
     text-decoration: none;
-    color: black;
+    color: white;
 }
-
+#collapse1 {
+    z-index: 3;
+}
 /*HEADER*/
 .header-wrapper {
     background-color: #374251;
