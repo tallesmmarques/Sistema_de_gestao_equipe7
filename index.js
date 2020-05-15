@@ -54,7 +54,7 @@ function Topbar() {
         { className: "navbar" },
         React.createElement(
           "ul",
-          { className: "nav justify-content-center" },
+          { className: "nav justify-content-end" },
           React.createElement(
             "li",
             { className: "nav-item" },

@@ -19,7 +19,7 @@ function Topbar () {
             <a href="index.html" className="navbar-brand"><img className="brand" src="imagens/logo.png" alt="logo"/></a>
           </div>
           <div className="navbar">
-            <ul className="nav justify-content-center">
+            <ul className="nav justify-content-end">
               <li className="nav-item">
                 <a className="nav-link active" href="quem_somos.html">Quem Somos</a>
               </li>
