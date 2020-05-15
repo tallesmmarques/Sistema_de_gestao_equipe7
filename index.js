@@ -39,10 +39,10 @@ function Topbar() {
     { className: "header-wrapper" },
     React.createElement(
       "div",
-      { className: "row" },
+      { className: "d-flex flex-row justify-content-between" },
       React.createElement(
         "div",
-        { className: "col-2 navbar" },
+        { className: "navbar" },
         React.createElement(
           "a",
           { href: "index.html", className: "navbar-brand" },
@@ -51,7 +51,7 @@ function Topbar() {
       ),
       React.createElement(
         "div",
-        { className: "col-8 navbar" },
+        { className: "navbar" },
         React.createElement(
           "ul",
           { className: "nav justify-content-center" },
@@ -99,11 +99,6 @@ function Topbar() {
               { className: "nav-link active", href: "sing_up.html" },
               "Registrar"
             )
-          ),
-          React.createElement(
-            "li",
-            null,
-            React.createElement(Menu, null)
           )
         )
       )
@@ -169,6 +164,7 @@ function Menu() {
     )
   );
 }
+
 ReactDOM.render(React.createElement(Topbar, null), document.getElementById('topbar'));
 
 function Footer() {
@@ -218,17 +214,17 @@ function Footer() {
         { "class": "col-2 navbar" },
         React.createElement(
           "a",
-          { "class": "nav-link active mx-auto", href: "https://www.instagram.com/cpe.jr/" },
+          { "class": "nav-link active mx-auto", target: "_blank", href: "https://www.instagram.com/cpe.jr/" },
           React.createElement("ion-icon", { name: "logo-instagram", size: "large" })
         ),
         React.createElement(
           "a",
-          { "class": "nav-link active mx-auto", href: "https://cpejr.com.br/site/" },
+          { "class": "nav-link active mx-auto", target: "_blank", href: "https://cpejr.com.br/site/" },
           React.createElement("img", { src: "./imagens/logo-cpe.png", alt: "logo-cpe", height: "30px", width: "30px" })
         ),
         React.createElement(
           "a",
-          { "class": "nav-link active mx-auto", href: "https://github.com/TallesMMarques/Sistema_de_gestao_equipe7" },
+          { "class": "nav-link active mx-auto", target: "_blank", href: "https://github.com/TallesMMarques/Sistema_de_gestao_equipe7" },
           React.createElement("ion-icon", { name: "logo-github", size: "large" })
         )
       )

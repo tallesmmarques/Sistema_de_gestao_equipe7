@@ -23,6 +23,7 @@ h2{
 .nav-link:hover{
     text-decoration: none;
     color: white;
+    background-color: #262e38;
 }
 
 .navbar {

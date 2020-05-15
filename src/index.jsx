@@ -14,11 +14,11 @@ function TopbarAntiga () {
 function Topbar () {
   return (
     <div className="header-wrapper">
-      <div className="row">
-          <div className="col-2 navbar">
+      <div className="d-flex flex-row justify-content-between">
+          <div className="navbar">
             <a href="index.html" className="navbar-brand"><img className="brand" src="imagens/logo.png" alt="logo"/></a>
           </div>
-          <div className="col-8 navbar">
+          <div className="navbar">
             <ul className="nav justify-content-center">
               <li className="nav-item">
                 <a className="nav-link active" href="quem_somos.html">Quem Somos</a>
@@ -35,7 +35,6 @@ function Topbar () {
               <li className="nav-item">
                 <a className="nav-link active" href="sing_up.html">Registrar</a>
               </li>
-              <li><Menu /></li>
             </ul>
           </div>
       </div>
@@ -72,6 +71,7 @@ function Menu () {
     </div>
   );
 }
+
 ReactDOM.render(<Topbar />, document.getElementById('topbar') );
 
 function Footer () {
@@ -92,9 +92,9 @@ function Footer () {
                   </ul>
               </div>
               <div class="col-2 navbar">
-                <a class="nav-link active mx-auto" href="https://www.instagram.com/cpe.jr/"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
-                <a class="nav-link active mx-auto" href="https://cpejr.com.br/site/"><img src="./imagens/logo-cpe.png" alt="logo-cpe" height="30px" width="30px" /></a>
-                <a class="nav-link active mx-auto" href="https://github.com/TallesMMarques/Sistema_de_gestao_equipe7"><ion-icon name="logo-github" size="large"></ion-icon></a>
+                <a class="nav-link active mx-auto" target="_blank" href="https://www.instagram.com/cpe.jr/"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+                <a class="nav-link active mx-auto" target="_blank" href="https://cpejr.com.br/site/"><img src="./imagens/logo-cpe.png" alt="logo-cpe" height="30px" width="30px" /></a>
+                <a class="nav-link active mx-auto" target="_blank" href="https://github.com/TallesMMarques/Sistema_de_gestao_equipe7"><ion-icon name="logo-github" size="large"></ion-icon></a>
               </div>
           </div>
       </div>
