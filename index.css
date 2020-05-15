@@ -195,3 +195,11 @@ h2{
 p.extra_msn{
     color: gray;
 } /*esqueceu senha?, não tem registro, etc...*/
+
+/*FALE CONOSCO*/
+.fale{
+    color: #374251;
+    margin: 30px 0 60px 0;
+    font-size: 35px;
+    text-align: center;
+}

@@ -27,7 +27,7 @@ function Topbar () {
                 <a className="nav-link active" href="produtos.html">Produtos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="contato.html">Fale conosco</a>
+                <a className="nav-link active" href="fale_conosco.html">Fale conosco</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="sing_in.html">Entrar</a>
@@ -81,10 +81,10 @@ function Footer () {
               <div class="col-10 navbar">
                   <ul class="nav justify-content-center">
                       <li class="nav-item">
-                      <a class="nav-link active" href="#">Sobre nós</a>
+                      <a class="nav-link active" href="quem_somos">Sobre nós</a>
                       </li>
                       <li class="nav-item">
-                      <a class="nav-link active" href="#">Fale conosco</a>
+                      <a class="nav-link active" href="fale_conosco">Fale conosco</a>
                       </li>
                       <li class="nav-item">
                       <a class="nav-link active" href="#">alguma coisa</a>
