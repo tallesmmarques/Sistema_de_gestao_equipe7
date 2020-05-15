@@ -218,18 +218,18 @@ function Footer() {
         { "class": "col-2 navbar" },
         React.createElement(
           "a",
-          { "class": "nav-link active mx-auto", href: "#" },
-          React.createElement("ion-icon", { name: "logo-facebook", size: "large" })
-        ),
-        React.createElement(
-          "a",
-          { "class": "nav-link active mx-auto", href: "#" },
+          { "class": "nav-link active mx-auto", href: "https://www.instagram.com/cpe.jr/" },
           React.createElement("ion-icon", { name: "logo-instagram", size: "large" })
         ),
         React.createElement(
           "a",
-          { "class": "nav-link active mx-auto", href: "#" },
-          React.createElement("ion-icon", { name: "logo-youtube", size: "large" })
+          { "class": "nav-link active mx-auto", href: "https://cpejr.com.br/site/" },
+          React.createElement("img", { src: "./imagens/logo-cpe.png", alt: "logo-cpe", height: "30px", width: "30px" })
+        ),
+        React.createElement(
+          "a",
+          { "class": "nav-link active mx-auto", href: "https://github.com/TallesMMarques/Sistema_de_gestao_equipe7" },
+          React.createElement("ion-icon", { name: "logo-github", size: "large" })
         )
       )
     )
