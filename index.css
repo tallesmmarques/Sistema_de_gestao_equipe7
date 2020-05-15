@@ -156,12 +156,12 @@ h2{
 .lista{
     list-style: none;
     padding-left: 0;
-  }
+}
   
 .lista li {
     line-height: 20px;
     
-  }
+}
   
 .lista li a {
     color: #374251;
