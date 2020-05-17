@@ -21,6 +21,9 @@ function Topbar () {
           <div className="navbar">
             <ul className="nav justify-content-end">
               <li className="nav-item">
+                <a className="nav-link active" href="index.html">Home</a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link active" href="quem_somos.html">Quem Somos</a>
               </li>
               <li className="nav-item dropdown navbar-nav ml-auto" >
