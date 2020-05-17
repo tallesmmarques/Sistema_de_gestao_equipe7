@@ -60,6 +60,15 @@ function Topbar() {
             { className: "nav-item" },
             React.createElement(
               "a",
+              { className: "nav-link active", href: "index.html" },
+              "Home"
+            )
+          ),
+          React.createElement(
+            "li",
+            { className: "nav-item" },
+            React.createElement(
+              "a",
               { className: "nav-link active", href: "quem_somos.html" },
               "Quem Somos"
             )
