@@ -23,10 +23,8 @@ function Topbar () {
               <li className="nav-item">
                 <a className="nav-link active" href="quem_somos.html">Quem Somos</a>
               </li>
-              </ul>
-              <ul className="navbar-nav ml-auto">
-              <li className="nav-item dropdown" >
-                <a className="nav-link dropdown-toggle" href="produtos.html" data-toggle="dropdown" id="navDrop">Produtos</a>
+              <li className="nav-item dropdown navbar-nav ml-auto" >
+                <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Produtos</a>
                 <div className="dropdown-menu">
                   <a className="dropdown-item" href="laticinios.html">Laticínios</a>
                   <a className="dropdown-item" href="alimentos-organicos.html">Alimentos Orgânicos</a>
@@ -34,9 +32,6 @@ function Topbar () {
                   <a className="dropdown-item" href="#">Produto 4</a>
                 </div>
               </li>
-              </ul>
-
-              <ul className="nav justify-content-end">
               <li className="nav-item">
                 <a className="nav-link active" href="fale_conosco.html">Fale conosco</a>
               </li>

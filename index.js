@@ -63,17 +63,13 @@ function Topbar() {
               { className: "nav-link active", href: "quem_somos.html" },
               "Quem Somos"
             )
-          )
-        ),
-        React.createElement(
-          "ul",
-          { className: "navbar-nav ml-auto" },
+          ),
           React.createElement(
             "li",
-            { className: "nav-item dropdown" },
+            { className: "nav-item dropdown navbar-nav ml-auto" },
             React.createElement(
               "a",
-              { className: "nav-link dropdown-toggle", href: "produtos.html", "data-toggle": "dropdown", id: "navDrop" },
+              { className: "nav-link dropdown-toggle", href: "#", "data-toggle": "dropdown" },
               "Produtos"
             ),
             React.createElement(
@@ -81,7 +77,7 @@ function Topbar() {
               { className: "dropdown-menu" },
               React.createElement(
                 "a",
-                { className: "dropdown-item", href: "produtos.html" },
+                { className: "dropdown-item", href: "laticinios.html" },
                 "Latic\xEDnios"
               ),
               React.createElement(
@@ -100,11 +96,7 @@ function Topbar() {
                 "Produto 4"
               )
             )
-          )
-        ),
-        React.createElement(
-          "ul",
-          { className: "nav justify-content-end" },
+          ),
           React.createElement(
             "li",
             { className: "nav-item" },
