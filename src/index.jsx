@@ -23,9 +23,20 @@ function Topbar () {
               <li className="nav-item">
                 <a className="nav-link active" href="quem_somos.html">Quem Somos</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="produtos.html">Produtos</a>
+              </ul>
+              <ul className="navbar-nav ml-auto">
+              <li className="nav-item dropdown" >
+                <a className="nav-link dropdown-toggle" href="produtos.html" data-toggle="dropdown" id="navDrop">Produtos</a>
+                <div className="dropdown-menu">
+                  <a className="dropdown-item" href="laticinios.html">Laticínios</a>
+                  <a className="dropdown-item" href="alimentos-organicos.html">Alimentos Orgânicos</a>
+                  <a className="dropdown-item" href="#">Produto 3</a>
+                  <a className="dropdown-item" href="#">Produto 4</a>
+                </div>
               </li>
+              </ul>
+
+              <ul className="nav justify-content-end">
               <li className="nav-item">
                 <a className="nav-link active" href="fale_conosco.html">Fale conosco</a>
               </li>
@@ -71,6 +82,7 @@ function Menu () {
     </div>
   );
 }
+
 
 ReactDOM.render(<Topbar />, document.getElementById('topbar') );
 

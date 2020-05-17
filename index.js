@@ -63,22 +63,54 @@ function Topbar() {
               { className: "nav-link active", href: "quem_somos.html" },
               "Quem Somos"
             )
-          ),
+          )
+        ),
+        React.createElement(
+          "ul",
+          { className: "navbar-nav ml-auto" },
           React.createElement(
             "li",
-            { className: "nav-item" },
+            { className: "nav-item dropdown" },
             React.createElement(
               "a",
-              { className: "nav-link active", href: "produtos.html" },
+              { className: "nav-link dropdown-toggle", href: "produtos.html", "data-toggle": "dropdown", id: "navDrop" },
               "Produtos"
+            ),
+            React.createElement(
+              "div",
+              { className: "dropdown-menu" },
+              React.createElement(
+                "a",
+                { className: "dropdown-item", href: "produtos.html" },
+                "Latic\xEDnios"
+              ),
+              React.createElement(
+                "a",
+                { className: "dropdown-item", href: "alimentos-organicos.html" },
+                "Alimentos Org\xE2nicos"
+              ),
+              React.createElement(
+                "a",
+                { className: "dropdown-item", href: "#" },
+                "Produto 3"
+              ),
+              React.createElement(
+                "a",
+                { className: "dropdown-item", href: "#" },
+                "Produto 4"
+              )
             )
-          ),
+          )
+        ),
+        React.createElement(
+          "ul",
+          { className: "nav justify-content-end" },
           React.createElement(
             "li",
             { className: "nav-item" },
             React.createElement(
               "a",
-              { className: "nav-link active", href: "contato.html" },
+              { className: "nav-link active", href: "fale_conosco.html" },
               "Fale conosco"
             )
           ),
@@ -185,7 +217,7 @@ function Footer() {
             { "class": "nav-item" },
             React.createElement(
               "a",
-              { "class": "nav-link active", href: "#" },
+              { "class": "nav-link active", href: "quem_somos" },
               "Sobre n\xF3s"
             )
           ),
@@ -194,7 +226,7 @@ function Footer() {
             { "class": "nav-item" },
             React.createElement(
               "a",
-              { "class": "nav-link active", href: "#" },
+              { "class": "nav-link active", href: "fale_conosco" },
               "Fale conosco"
             )
           ),
