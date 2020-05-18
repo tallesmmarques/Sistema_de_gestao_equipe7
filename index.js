@@ -75,7 +75,7 @@ function Topbar() {
           ),
           React.createElement(
             "li",
-            { className: "nav-item dropdown navbar-nav ml-auto" },
+            { className: "nav-item dropdown navbar-nav ml-auto centralizar" },
             React.createElement(
               "a",
               { className: "nav-link dropdown-toggle", href: "#", "data-toggle": "dropdown" },
@@ -86,22 +86,22 @@ function Topbar() {
               { className: "dropdown-menu" },
               React.createElement(
                 "a",
-                { className: "dropdown-item", href: "laticinios.html" },
+                { className: "dropdown-item tamanholetradropdown", href: "laticinios.html" },
                 "Latic\xEDnios"
               ),
               React.createElement(
                 "a",
-                { className: "dropdown-item", href: "alimentos-organicos.html" },
+                { className: "dropdown-item tamanholetradropdown", href: "alimentos-organicos.html" },
                 "Alimentos Org\xE2nicos"
               ),
               React.createElement(
                 "a",
-                { className: "dropdown-item", href: "#" },
+                { className: "dropdown-item tamanholetradropdown", href: "#" },
                 "Produto 3"
               ),
               React.createElement(
                 "a",
-                { className: "dropdown-item", href: "#" },
+                { className: "dropdown-item tamanholetradropdown", href: "#" },
                 "Produto 4"
               )
             )
