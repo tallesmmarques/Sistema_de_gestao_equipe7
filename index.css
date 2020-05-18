@@ -106,6 +106,14 @@ h2{
     background-color: #374251;
   } 
 
+/*CARDS*/
+#cards{
+    width: 60rem;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
 /*CONTEUDO*/
 .conteudo{
     margin-top: 50px; /*espaço ocupado pela topbar*/
@@ -116,6 +124,19 @@ h2{
     align-items: center;
 } /*o que vai vir na pagina, tudo abaixo da topbar*/
 
+/* CONTEUDO ARTIGOS*/
+.artigo{
+    width: 60%;
+    text-align: justify;
+}
+
+.artigo img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+.negrito{
+    font-weight: 700;
+}
 
 /*FOOTER*/
 .footer-wrapper {
@@ -124,6 +145,10 @@ h2{
     height: 80px;
 }
 
+/*CARD*/
+.card-body {
+    text-align: center;
+  }
 
 /*SOBRE A EMPRESA*/
 .titulo{
@@ -143,7 +168,7 @@ h2{
 }
 
 .subtitulo{
-    font-size: 18px;
+    font-size: 20px;
     color: #a7e66e;
     text-transform: uppercase;
     font-weight: bold;
@@ -197,10 +222,5 @@ p.extra_msn{
     color: gray;
 } /*esqueceu senha?, não tem registro, etc...*/
 
-/*FALE CONOSCO*/
-.fale{
-    color: #374251;
-    margin: 30px 0 60px 0;
-    font-size: 35px;
-    text-align: center;
-}
+
+
