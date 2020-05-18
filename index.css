@@ -150,6 +150,13 @@ h2{
     text-align: center;
   }
 
+/*LOGO*/
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 /*SOBRE A EMPRESA*/
 .titulo{
     color: #374251;
