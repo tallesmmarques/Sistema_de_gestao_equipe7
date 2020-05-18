@@ -18,15 +18,23 @@
         <div class="login">
             <img src="imagens/logo.png" alt="COOPERPE" >
             <h2>Entrar</h2>
-            <form action="index.html" method="get">
-                <label>Email</label>
-                <input type="email" name="email">
-                <label>Senha</label>
-                <input type="password" name="passwd">
-                <button>Login in</button>
+            <form>
+              <div class="form-group">
+                <label for="email">Endereço de email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
+              </div>
+              <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" placeholder="Senha">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="lembrar">
+                <label class="form-check-label" for="lembrar">Lembrar de mim</label>
+              </div>
+              <button type="submit" class="btn btn-secondary btn-lg">Entrar</button>
             </form>
-            <p class="extra_msn">Você não tem uma conta? <a href="sing_up.html">Registrar</a></p>
             <p><a class="extra_msn" href="esquecidos.html">Esqueceu sua senha?</a></p>
+            <p class="extra_msn">Você não tem uma conta? <a href="sing_up.html">Registrar</a></p>
         </div>
     </div>
     </div>
