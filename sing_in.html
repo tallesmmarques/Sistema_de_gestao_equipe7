@@ -21,17 +21,18 @@
             <form>
               <div class="form-group">
                 <label for="email">Endereço de email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
+                <input type="email" name="usuario" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
               </div>
               <div class="form-group">
                 <label for="senha">Senha</label>
-                <input type="password" class="form-control" id="senha" placeholder="Senha">
+                <input type="password" name="senha" class="form-control" id="senha" placeholder="Senha">
               </div>
               <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="lembrar">
                 <label class="form-check-label" for="lembrar">Lembrar de mim</label>
               </div>
-              <button type="submit" class="btn btn-secondary btn-lg">Entrar</button>
+              <input type="button" onclick="Login()" class="btn btn-secondary btn-lg" value="Entrar">
+              <!--<button type="submit" class="btn btn-secondary btn-lg">Entrar</button>-->
             </form>
             <p><a class="extra_msn" href="esquecidos.html">Esqueceu sua senha?</a></p>
             <p class="extra_msn">Você não tem uma conta? <a href="sing_up.html">Registrar</a></p>
@@ -55,5 +56,6 @@
     
     <!--Importa o head/topbar-->
     <script src="index.js"></script>
+    <script type="text/javascript" src="login.js"></script>
 </body>
 </html>
