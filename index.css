@@ -117,7 +117,6 @@ h2{
 /*CONTEUDO*/
 .conteudo{
     margin-top: 50px; /*espaço ocupado pela topbar*/
-    margin-bottom: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -199,7 +198,7 @@ h2{
 .login {
     background-color: #374251;
     align-items: center;
-    margin: 75px;
+    margin: 25px;
     width: 40%;
     border-radius: 20px;
     text-align: center;

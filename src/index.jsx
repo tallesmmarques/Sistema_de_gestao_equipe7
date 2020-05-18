@@ -112,3 +112,4 @@ function Footer () {
 }
 
 ReactDOM.render(<Footer />, document.getElementById('footer'));
+
