@@ -29,10 +29,12 @@ function Topbar () {
               <li className="nav-item dropdown navbar-nav ml-auto centralizar" >
                 <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Produtos</a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item tamanholetradropdown" href="laticinios.html">Laticínios</a>
-                  <a className="dropdown-item tamanholetradropdown" href="alimentos-organicos.html">Alimentos Orgânicos</a>
-                  <a className="dropdown-item tamanholetradropdown" href="#">Produto 3</a>
-                  <a className="dropdown-item tamanholetradropdown" href="#">Produto 4</a>
+                  <a className="dropdown-item tamanholetradropdown" href="remedios-vacinas.html">Remédios e Vacinas</a>
+                  <a className="dropdown-item tamanholetradropdown" href="mudas-sementes.html">Mudas e Sementes</a>
+                  <a className="dropdown-item tamanholetradropdown" href="racoes.html">Rações</a>
+                  <a className="dropdown-item tamanholetradropdown" href="graos.html">Grãos</a>
+                  <a className="dropdown-item tamanholetradropdown" href="maquinario.html">Maquinário</a>
+                  <a className="dropdown-item tamanholetradropdown" href="variados.html">Variados</a>
                 </div>
               </li>
               <li className="nav-item">
