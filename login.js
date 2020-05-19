@@ -4,18 +4,28 @@ function Login() {
   usuario=usuario.toLowerCase();
   var senha= document.getElementsByName('senha')[0].value;
   senha=senha.toLowerCase();
-  if (usuario=="cooperado@exemplo.com" && senha=="123") {
-    window.location="produtos.html";
-    done=1;
+  if (usuario=="cooperado@exemplo.com") {
+    if(senha=="123") {
+      window.location="produtos.html";
+      done=1;
+    }
+    else {done=2}
   }
-  if (usuario=="gerente@exemplo.com" && senha=="123") {
-    window.location="addproduto.html";
-    done=1;
+  if (usuario=="gerente@exemplo.com") {
+    if(senha=="123") {
+      window.location="addproduto.html";
+      done=1;
+    }
+    else {done=2}
   }
-  if (usuario=="cliente@exemplo.com" && senha=="123") {
-    window.location="produtos.html";
-    done=1;
+  if (usuario=="cliente@exemplo.com") {
+    if(senha=="123") {
+      window.location="produtos.html";
+      done=1;
+    }
+    else {done=2}
   }
+  if (done==2) { alert("Senha incorreta."); }
   if (done==0) { alert("Usuário inválido, tente novamente."); }
 }
 
