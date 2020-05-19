@@ -25,7 +25,7 @@
               <div class="col-md-4">
                 <div class="card-body">
                   <div class="zoom">
-                    <img class="img-fluid" src="#" alt="Produto"/>
+                    <img class="img-fluid" src="#" alt="Produto" data-toggle="modal" data-target="#siteModalPROD1"/>
                     <p></p>
                     <a><h4>Produto</h4></a> <!--Depois se eu quiser posso por um href dentro do a-->
                     <br>
@@ -37,8 +37,32 @@
           </div> 
       </div>
     </div>
+
     <!--FOOTER-->
     <div id="footer"></div> 
+
+    <!--MODAL-->
+      <!--PRODUTO 1-->
+      <div class="modal" id="siteModalPROD1" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">PRODUTO 1</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span>x</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="card-body">
+                <img class="img-fluid" src="#" alt="PRODUTO 1"/>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+        </div>
+      </div>
 
     <!--Adicionar icones-->
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
