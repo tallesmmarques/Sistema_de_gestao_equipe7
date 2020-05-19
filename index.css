@@ -114,6 +114,11 @@ h2{
     align-self: center;
 }
 
+
+.wrapper-cards{
+    margin: 50px 0 0;
+}
+
 /*CONTEUDO*/
 .conteudo{
     margin-top: 50px; /*espaço ocupado pela topbar*/
@@ -157,6 +162,11 @@ h2{
 /*SERVIÇOS*/
 .wrapper-serviços{
     margin: 100px 0;
+}
+
+/*PROVAS SOCIAIS*/
+.wrapper-provas {
+    margin: 0 0 100px 0;
 }
 
 /*LOGO*/
