@@ -156,6 +156,11 @@ h2{
     text-align: justify;
 }
 
+/*SERVIÇOS*/
+.wrapper-serviços{
+    margin: 100px 0;
+}
+
 /*LOGO*/
 
 .logo {
