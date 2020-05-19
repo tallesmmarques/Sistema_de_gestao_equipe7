@@ -24,8 +24,8 @@
               </div>
               <div class="col-md-6">
                 <div class="card-body zoom">
-                <img class="img-fluid" src="imagens/produtos/graos/milho.jpg" alt="Milho"/>
-                    <a><h4>Milho - 50kg - Saca</h4></a>
+                <img class="img-fluid" src="imagens/produtos/graos/milho.jpg" alt="Milho" data-toggle="modal" data-target="#siteModalMILHO"/>
+                    <a><h4>Saca de Milho - 50kg</h4></a>
                     <br>
                     <a href="#">
                     <button class="btn btn-success btn-mini">Comprar</button></a>
@@ -33,8 +33,8 @@
               </div>  
               <div class="col-md-6">
                 <div class="card-body zoom">
-                <img class="img-fluid" src="imagens/produtos/graos/soja.jpg" alt="Soja"/>
-                    <a><h4>Soja - 50kg - Saca</h4></a>
+                <img class="img-fluid" src="imagens/produtos/graos/soja.jpg" alt="Soja" data-toggle="modal" data-target="#siteModalSOJA"/>
+                    <a><h4>Saca de Soja - 50kg</h4></a>
                     <br>
                     <a href="#">
                     <button class="btn btn-success btn-mini">Comprar</button></a>
@@ -42,11 +42,55 @@
               </div>      
           </div>
       </div> 
-  </div>
-      
+  </div>  
 
     <!--FOOTER-->
     <div id="footer"></div>
+
+    <!--MODAL-->
+      <!--MILHO-->
+      <div class="modal" id="siteModalMILHO" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Saca de Milho - 50kg</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span>x</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="card-body">
+                <img class="img-fluid" src="imagens/produtos/graos/milho.jpg" alt="Milho"/>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+        </div>
+      </div>
+       <!--SOJA-->
+       <div class="modal" id="siteModalSOJA" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Saca de Soja - 50kg</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span>x</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="card-body">
+                <img class="img-fluid" src="imagens/produtos/graos/soja.jpg" alt="Soja"/>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      
 
     <!--Adicionar icones-->
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
