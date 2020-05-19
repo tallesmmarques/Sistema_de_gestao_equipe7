@@ -13,45 +13,52 @@ function TopbarAntiga () {
 }
 function Topbar () {
   return (
-    <div className="header-wrapper">
-      <div className="d-flex flex-row justify-content-between">
-          <div className="navbar">
-            <a href="index.html" className="navbar-brand"><img className="brand" src="imagens/logo.png" alt="logo"/></a>
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+          
+        <a href="index.html" className="navbar-brand"><img className="brand" src="imagens/logo.png" alt="logo"/></a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" >
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+
+            <a class="nav-item dropdown nav-link" href="index.html">Home</a>
+            <a class="nav-item dropdown nav-link" href="quem_somos.html">Quem somos</a>
+
+                 
+            <a class="nav-item nav-link dropdown-toggle center-content-end" href="#" data-toggle="dropdown" data-target="navbarDropdown" >Produtos<span class="claret"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item " href="remedios-vacinas.html">Remédios e Vacinas</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="mudas-sementes.html">Mudas e Sementes</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="racoes.html">Rações</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="graos.html">Grãos</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="maquinario.html">Maquinário</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="variados.html">Variados</a>
+
+
+              
+            </div>
+
+
+            <a class="nav-item nav-link" href="fale_conosco.html">Fale conosco</a>
+            <a class="nav-item nav-link" href="sing_in.html">Entrar</a>
+            <a class="nav-item nav-link" href="sing_up.html">Registrar</a>
+
           </div>
-          <div className="navbar">
-            <ul className="nav justify-content-end">
-              <li className="nav-item">
-                <a className="nav-link active" href="index.html">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="quem_somos.html">Quem Somos</a>
-              </li>
-              <li className="nav-item dropdown navbar-nav ml-auto centralizar" >
-                <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Produtos</a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item tamanholetradropdown" href="remedios-vacinas.html">Remédios e Vacinas</a>
-                  <a className="dropdown-item tamanholetradropdown" href="mudas-sementes.html">Mudas e Sementes</a>
-                  <a className="dropdown-item tamanholetradropdown" href="racoes.html">Rações</a>
-                  <a className="dropdown-item tamanholetradropdown" href="graos.html">Grãos</a>
-                  <a className="dropdown-item tamanholetradropdown" href="maquinario.html">Maquinário</a>
-                  <a className="dropdown-item tamanholetradropdown" href="variados.html">Variados</a>
-                </div>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="fale_conosco.html">Fale conosco</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="sing_in.html">Entrar</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="sing_up.html">Registrar</a>
-              </li>
-            </ul>
-          </div>
-      </div>
+        </div>
+      </nav>
     </div>
   );
 }
+
 function Menu () {
   return (
     <div className="panel-group">
