@@ -36,118 +36,102 @@ function TopbarAntiga() {
 function Topbar() {
   return React.createElement(
     "div",
-    { className: "header-wrapper" },
+    { "class": "container", id: "nav-container" },
     React.createElement(
-      "div",
-      { className: "d-flex flex-row justify-content-between" },
+      "nav",
+      { "class": "navbar navbar-expand-lg fixed-top navbar-dark" },
       React.createElement(
-        "div",
-        { className: "navbar" },
-        React.createElement(
-          "a",
-          { href: "index.html", className: "navbar-brand" },
-          React.createElement("img", { className: "brand", src: "imagens/logo.png", alt: "logo" })
-        )
+        "a",
+        { href: "index.html", className: "navbar-brand" },
+        React.createElement("img", { className: "brand", src: "imagens/logo.png", alt: "logo" })
+      ),
+      React.createElement(
+        "button",
+        { "class": "navbar-toggler", type: "button", "data-toggle": "collapse", "data-target": "#navbar-links", "aria-controls": "navbar-links" },
+        React.createElement("span", { "class": "navbar-toggler-icon" })
       ),
       React.createElement(
         "div",
-        { className: "navbar" },
+        { "class": "collapse navbar-collapse justify-content-end", id: "navbar-links" },
         React.createElement(
-          "ul",
-          { className: "nav justify-content-end" },
+          "div",
+          { "class": "navbar-nav" },
           React.createElement(
-            "li",
-            { className: "nav-item" },
-            React.createElement(
-              "a",
-              { className: "nav-link active", href: "index.html" },
-              "Home"
-            )
+            "a",
+            { "class": "nav-item dropdown nav-link", href: "index.html" },
+            "Home"
           ),
           React.createElement(
-            "li",
-            { className: "nav-item" },
-            React.createElement(
-              "a",
-              { className: "nav-link active", href: "quem_somos.html" },
-              "Quem Somos"
-            )
+            "a",
+            { "class": "nav-item dropdown nav-link", href: "quem_somos.html" },
+            "Quem somos"
           ),
           React.createElement(
-            "li",
-            { className: "nav-item dropdown navbar-nav ml-auto centralizar" },
+            "a",
+            { "class": "nav-item nav-link dropdown-toggle center-content-end", href: "#", "data-toggle": "dropdown", "data-target": "navbarDropdown" },
+            "Produtos",
+            React.createElement("span", { "class": "claret" })
+          ),
+          React.createElement(
+            "div",
+            { "class": "dropdown-menu", "aria-labelledby": "navbarDropdown" },
             React.createElement(
               "a",
-              { className: "nav-link dropdown-toggle", href: "#", "data-toggle": "dropdown" },
-              "Produtos"
+              { "class": "dropdown-item ", href: "remedios-vacinas.html" },
+              "Rem\xE9dios e Vacinas"
             ),
+            React.createElement("div", { "class": "dropdown-divider" }),
             React.createElement(
-              "div",
-              { className: "dropdown-menu" },
-              React.createElement(
-                "a",
-                { className: "dropdown-item tamanholetradropdown", href: "remedios-vacinas.html" },
-                "Rem\xE9dios e Vacinas"
-              ),
-              React.createElement(
-                "a",
-                { className: "dropdown-item tamanholetradropdown", href: "mudas-sementes.html" },
-                "Mudas e Sementes"
-              ),
-              React.createElement(
-                "a",
-                { className: "dropdown-item tamanholetradropdown", href: "racoes.html" },
-                "Ra\xE7\xF5es"
-              ),
-              React.createElement(
-                "a",
-                { className: "dropdown-item tamanholetradropdown", href: "graos.html" },
-                "Gr\xE3os"
-              ),
-              React.createElement(
-                "a",
-                { className: "dropdown-item tamanholetradropdown", href: "maquinario.html" },
-                "Maquin\xE1rio"
-              ),
-              React.createElement(
-                "a",
-                { className: "dropdown-item tamanholetradropdown", href: "variados.html" },
-                "Variados"
-              )
+              "a",
+              { "class": "dropdown-item", href: "mudas-sementes.html" },
+              "Mudas e Sementes"
+            ),
+            React.createElement("div", { "class": "dropdown-divider" }),
+            React.createElement(
+              "a",
+              { "class": "dropdown-item", href: "racoes.html" },
+              "Ra\xE7\xF5es"
+            ),
+            React.createElement("div", { "class": "dropdown-divider" }),
+            React.createElement(
+              "a",
+              { "class": "dropdown-item", href: "graos.html" },
+              "Gr\xE3os"
+            ),
+            React.createElement("div", { "class": "dropdown-divider" }),
+            React.createElement(
+              "a",
+              { "class": "dropdown-item", href: "maquinario.html" },
+              "Maquin\xE1rio"
+            ),
+            React.createElement("div", { "class": "dropdown-divider" }),
+            React.createElement(
+              "a",
+              { "class": "dropdown-item", href: "variados.html" },
+              "Variados"
             )
           ),
           React.createElement(
-            "li",
-            { className: "nav-item" },
-            React.createElement(
-              "a",
-              { className: "nav-link active", href: "fale_conosco.html" },
-              "Fale conosco"
-            )
+            "a",
+            { "class": "nav-item nav-link", href: "fale_conosco.html" },
+            "Fale conosco"
           ),
           React.createElement(
-            "li",
-            { className: "nav-item" },
-            React.createElement(
-              "a",
-              { className: "nav-link active", href: "sing_in.html" },
-              "Entrar"
-            )
+            "a",
+            { "class": "nav-item nav-link", href: "sing_in.html" },
+            "Entrar"
           ),
           React.createElement(
-            "li",
-            { className: "nav-item" },
-            React.createElement(
-              "a",
-              { className: "nav-link active", href: "sing_up.html" },
-              "Registrar"
-            )
+            "a",
+            { "class": "nav-item nav-link", href: "sing_up.html" },
+            "Registrar"
           )
         )
       )
     )
   );
 }
+
 function Menu() {
   return React.createElement(
     "div",
