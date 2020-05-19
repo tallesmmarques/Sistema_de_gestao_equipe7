@@ -125,6 +125,11 @@ width: 100%;
 }
 
 
+
+.wrapper-cards{
+    margin: 50px 0 0;
+}
+
 /*CONTEUDO*/
 .conteudo{
     margin-top: 50px; /*espaço ocupado pela topbar*/
@@ -161,7 +166,21 @@ width: 100%;
 /*CARD*/
 .card-body {
     text-align: center;
-  }
+}
+
+.citação {
+    text-align: justify;
+}
+
+/*SERVIÇOS*/
+.wrapper-serviços{
+    margin: 100px 0;
+}
+
+/*PROVAS SOCIAIS*/
+.wrapper-provas {
+    margin: 0 0 100px 0;
+}
 
 /*LOGO*/
 
@@ -175,6 +194,11 @@ width: 100%;
     margin: 30px 0 60px 0;
     font-size: 35px;
     text-align: center;
+}
+
+.wrapper-logo {
+    margin-top: 100px; 
+    margin-bottom: 30px;
 }
 
 /*SOBRE A EMPRESA*/
