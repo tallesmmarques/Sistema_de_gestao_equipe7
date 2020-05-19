@@ -148,7 +148,11 @@ h2{
 /*CARD*/
 .card-body {
     text-align: center;
-  }
+}
+
+.citação {
+    text-align: justify;
+}
 
 /*LOGO*/
 
