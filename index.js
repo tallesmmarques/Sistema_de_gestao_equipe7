@@ -86,23 +86,33 @@ function Topbar() {
               { className: "dropdown-menu" },
               React.createElement(
                 "a",
-                { className: "dropdown-item tamanholetradropdown", href: "laticinios.html" },
-                "Latic\xEDnios"
+                { className: "dropdown-item tamanholetradropdown", href: "remedios-vacinas.html" },
+                "Rem\xE9dios e Vacinas"
               ),
               React.createElement(
                 "a",
-                { className: "dropdown-item tamanholetradropdown", href: "alimentos-organicos.html" },
-                "Alimentos Org\xE2nicos"
+                { className: "dropdown-item tamanholetradropdown", href: "mudas-sementes.html" },
+                "Mudas e Sementes"
               ),
               React.createElement(
                 "a",
-                { className: "dropdown-item tamanholetradropdown", href: "#" },
-                "Produto 3"
+                { className: "dropdown-item tamanholetradropdown", href: "racao.html" },
+                "Ra\xE7\xF5es"
               ),
               React.createElement(
                 "a",
-                { className: "dropdown-item tamanholetradropdown", href: "#" },
-                "Produto 4"
+                { className: "dropdown-item tamanholetradropdown", href: "graos.html" },
+                "Gr\xE3os"
+              ),
+              React.createElement(
+                "a",
+                { className: "dropdown-item tamanholetradropdown", href: "maquinario.html" },
+                "Maquin\xE1rio"
+              ),
+              React.createElement(
+                "a",
+                { className: "dropdown-item tamanholetradropdown", href: "variados.html" },
+                "Variados"
               )
             )
           ),
