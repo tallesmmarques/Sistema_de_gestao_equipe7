@@ -1,81 +1,81 @@
-function Produto() {
-    var nome = 'Milho';
-    var tipo = 'Grãos';
-    var quant = 162;
-    var preco = 80;
-    var valid = 12;
-    var imagPath = 'graos/milho.jpg';
+function Produto(props) {
+    var nome = props.nome;
+    var tipo = props.tipo;
+    var quant = props.quant;
+    var preco = props.preco;
+    var valid = props.valid;
+    var imagPath = props.imgPath;
 
     var imagPathRe = 'imagens/produtos/' + imagPath;
     return React.createElement(
-        'div',
-        { className: 'produto' },
-        React.createElement('img', { src: imagPathRe }),
+        "div",
+        { className: "produto" },
+        React.createElement("img", { src: imagPathRe }),
         React.createElement(
-            'div',
-            { className: 'textoadd' },
+            "div",
+            { className: "textoadd" },
             React.createElement(
-                'h3',
-                { className: 'text-center' },
-                'Milho'
+                "h3",
+                { className: "text-center" },
+                "Milho"
             ),
             React.createElement(
-                'p',
+                "p",
                 null,
                 React.createElement(
-                    'b',
+                    "b",
                     null,
-                    'Nome: '
+                    "Nome: "
                 ),
                 nome
             ),
             React.createElement(
-                'p',
+                "p",
                 null,
                 React.createElement(
-                    'b',
+                    "b",
                     null,
-                    'Tipo: '
+                    "Tipo: "
                 ),
                 tipo
             ),
             React.createElement(
-                'p',
+                "p",
                 null,
                 React.createElement(
-                    'b',
+                    "b",
                     null,
-                    'Quantidade: '
+                    "Quantidade: "
                 ),
                 quant
             ),
             React.createElement(
-                'p',
+                "p",
                 null,
                 React.createElement(
-                    'b',
+                    "b",
                     null,
-                    'Pre\xE7o: '
+                    "Pre\xE7o: "
                 ),
-                preco,
-                ' R$'
+                "R$ ",
+                preco
             ),
             React.createElement(
-                'p',
+                "p",
                 null,
                 React.createElement(
-                    'b',
+                    "b",
                     null,
-                    'Validade: '
+                    "Validade: "
                 ),
                 valid,
-                ' meses'
+                " meses"
             )
         )
     );
 }
 
-ReactDOM.render(React.createElement(Produto, null), document.getElementById('produtos'));
+ReactDOM.render(React.createElement(Produto, { nome: "Milho", tipo: "Gr\xE3o", quant: "159", valid: "12", preco: "120,00", imgPath: "graos/milho.jpg" }), document.getElementById('produtos'));
 
 function funcao() {
     alert("Aqui");

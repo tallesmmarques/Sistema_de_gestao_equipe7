@@ -1,10 +1,10 @@
-function Produto () {
-    var nome = 'Milho';
-    var tipo = 'Grãos';
-    var quant = 162;
-    var preco = 80;
-    var valid = 12;
-    var imagPath = 'graos/milho.jpg';
+function Produto (props) {
+    var nome = props.nome;
+    var tipo = props.tipo;
+    var quant = props.quant;
+    var preco = props.preco;
+    var valid = props.valid;
+    var imagPath = props.imgPath;
     
     var imagPathRe = 'imagens/produtos/' + imagPath;
     return (
@@ -15,7 +15,7 @@ function Produto () {
             <p><b>Nome: </b>{nome}</p>
             <p><b>Tipo: </b>{tipo}</p>
             <p><b>Quantidade: </b>{quant}</p>
-            <p><b>Preço: </b>{preco} R$</p>
+            <p><b>Preço: </b>R$ {preco}</p>
             <p><b>Validade: </b>{valid} meses</p>
         </div>
       </div>
@@ -23,7 +23,7 @@ function Produto () {
   }
 
 ReactDOM.render(
-    <Produto /> , 
+    <Produto nome='Milho' tipo='Grão' quant='159' valid='12' preco='120,00' imgPath='graos/milho.jpg'/> , 
     document.getElementById('produtos')
 );
 
