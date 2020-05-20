@@ -372,4 +372,7 @@ p.extra_msn{
 }
 .textAddBtn {
     width: 90%;
+    background-color:#dfdfdf;
+    padding: 10px;
+    border-radius: 10px;
 }
