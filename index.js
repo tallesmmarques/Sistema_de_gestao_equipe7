@@ -125,6 +125,12 @@ function Topbar() {
             "a",
             { "class": "nav-item nav-link", href: "sing_up.html" },
             "Registrar"
+          ),
+          React.createElement(
+            "a",
+            { "class": "nav-item nav-link", href: "#" },
+            "Meu carrinho   ",
+            React.createElement("ion-icon", { name: "cart-outline" })
           )
         )
       )
