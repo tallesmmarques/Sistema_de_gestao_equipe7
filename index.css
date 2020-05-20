@@ -370,3 +370,6 @@ p.extra_msn{
     padding: 10px;
     line-height: 0.5;
 }
+.textAddBtn {
+    width: 90%;
+}

@@ -54,3 +54,6 @@ function Painel () {
 
 ReactDOM.render(<Painel /> , document.getElementById('produtos'));
 
+function funcao () {
+    alert("Botão sem função definida");
+}
