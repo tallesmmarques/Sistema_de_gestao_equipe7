@@ -327,22 +327,124 @@ p.extra_msn{
 }
 
 /* RESPONSIVO */
-@media(max-width: 768px) {
-    
-    /* slider */
-    .carousel-inner, #mainSlider .carousel-item {
-        height: auto;
-      }
-    
-    .carousel-caption h2 {
-        font-size: 28px;
-      }
-    
-    .carousel-caption p {
-        font-size: 18px;
-        margin-bottom: 40px;
-      }
+
+/*MEDIA QUERTES*/
+@media only screen and (max-width:1500px){
+    .carousel-caption{
+        padding-bottom: 8px;
+    }
+    #carouselFull{
+        height: 600px;
+    }
 }
+
+@media only screen and (max-width:1199px){
+    .carousel-caption  h2 {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .carousel-caption p{
+        font-size: 30px;
+    }
+    .carousel-control-prev {
+        margin-top: -300px;
+        padding: -300px 0;
+    
+    }
+    .carousel-control-next {
+        margin-top: -300px;
+        padding: -300px 0;
+    
+    }
+    #carouselFull{
+        height: 480px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .botao {
+        width: 50px;
+        height: 30px;
+        padding: 5px 10px;
+    }
+    #carouselFull{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .carousel-caption  h2 {
+        margin-top: -40px;
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        font-size: 18px;
+    }
+    .carousel-caption{
+        padding-bottom: 8px;
+    }
+    .carousel-control-prev {
+        margin-top: -400px;
+    
+    }
+    .carousel-control-next {
+        margin-top: -400px;
+    
+    }
+    #carouselFull{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .carousel-caption  h2 {
+        margin-top:-30px;
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    .botao {
+        width: 10px;
+        height: 5px;
+        padding: 2px 3px;
+    }
+    .carousel-control-prev {
+        margin-top: -450px;
+    
+    }
+    .carousel-control-next {
+        margin-top: -450px;
+    
+    }
+    #carouselFull{
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .carousel-caption  h2 {
+        margin-top:-30px;
+        font-size: 15px;
+    }
+
+    .botao {
+        display: none;
+    }
+
+    .carousel-control-prev {
+        margin-top: -480px;
+    
+    }
+    .carousel-control-next {
+        margin-top: -480px;
+    
+    }
+    #carouselFull{
+        height: 165px;
+    }
+}
+
 /*===============================================
             * ADICIONAR PRODUTOS *
 ===============================================*/
