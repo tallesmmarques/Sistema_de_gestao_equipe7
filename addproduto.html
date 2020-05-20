@@ -14,12 +14,19 @@
 </head>
 <body>
     <div id="topbar"></div>
-    <div class="conteudo">
+    <div class="addprodutos">
         <h1>Gerenciar Produtos</h1>
+        <button 
+            type="button" 
+            class="btn btn-outline-secondary"
+            onclick="funcao()"
+        >+ Adicionar</button>
+        <div class="painel">
+            <div id="produtos"></div>
+        </div>
     </div>
 
-    <!--FOOTER-->
-    <div id="footer"></div>
+    
 
     <!--Isso linka o JS com o Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -34,6 +41,6 @@
     
     <!--Importa o head/topbar-->
     <script src="index.js"></script>
-    <script type="text/javascript" src="login.js"></script>
+    <script src="produtos.js"></script>
 </body>
 </html>
