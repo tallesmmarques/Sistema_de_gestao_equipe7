@@ -8,75 +8,92 @@ function Produto(props) {
 
     var imagPathRe = 'imagens/produtos/' + imagPath;
     return React.createElement(
-        "div",
-        { className: "produto" },
-        React.createElement("img", { src: imagPathRe }),
+        'div',
+        { className: 'produto' },
+        React.createElement('img', { src: imagPathRe, width: '300px' }),
         React.createElement(
-            "div",
-            { className: "textoadd" },
+            'div',
+            { className: 'textoadd' },
             React.createElement(
-                "h3",
-                { className: "text-center" },
-                "Milho"
-            ),
-            React.createElement(
-                "p",
-                null,
-                React.createElement(
-                    "b",
-                    null,
-                    "Nome: "
-                ),
+                'h3',
+                { className: 'text-center' },
                 nome
             ),
             React.createElement(
-                "p",
+                'p',
                 null,
                 React.createElement(
-                    "b",
+                    'b',
                     null,
-                    "Tipo: "
+                    'Tipo: '
                 ),
                 tipo
             ),
             React.createElement(
-                "p",
+                'p',
                 null,
                 React.createElement(
-                    "b",
+                    'b',
                     null,
-                    "Quantidade: "
+                    'Quantidade: '
                 ),
                 quant
             ),
             React.createElement(
-                "p",
+                'p',
                 null,
                 React.createElement(
-                    "b",
+                    'b',
                     null,
-                    "Pre\xE7o: "
+                    'Pre\xE7o: '
                 ),
-                "R$ ",
+                'R$ ',
                 preco
             ),
             React.createElement(
-                "p",
+                'p',
                 null,
                 React.createElement(
-                    "b",
+                    'b',
                     null,
-                    "Validade: "
+                    'Validade: '
                 ),
                 valid,
-                " meses"
+                ' meses'
             )
         )
     );
 }
 
-ReactDOM.render(React.createElement(Produto, { nome: "Milho", tipo: "Gr\xE3o", quant: "159", valid: "12", preco: "120,00", imgPath: "graos/milho.jpg" }), document.getElementById('produtos'));
-
-function funcao() {
-    alert("Aqui");
+function Painel() {
+    return React.createElement(
+        'div',
+        { className: 'painel' },
+        React.createElement(Produto, {
+            nome: 'Milho',
+            tipo: 'Gr\xE3o',
+            quant: '159',
+            valid: '12',
+            preco: '120,00',
+            imgPath: 'graos/milho.jpg'
+        }),
+        React.createElement(Produto, {
+            nome: 'Ra\xE7\xE3o de Galinha',
+            tipo: 'Ra\xE7\xE3o',
+            quant: '25',
+            valid: '6',
+            preco: '60,00',
+            imgPath: 'racao/racao-galinha1.jpg'
+        }),
+        React.createElement(Produto, {
+            nome: 'Anti inflamat\xF3rio',
+            tipo: 'Remedio/Vacina',
+            quant: '159',
+            valid: '12',
+            preco: '120,00',
+            imgPath: 'remedio-vacina/antiinflamatorio1.jpg'
+        })
+    );
 }
+
+ReactDOM.render(React.createElement(Painel, null), document.getElementById('produtos'));

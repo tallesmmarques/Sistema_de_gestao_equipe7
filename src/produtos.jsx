@@ -9,10 +9,9 @@ function Produto (props) {
     var imagPathRe = 'imagens/produtos/' + imagPath;
     return (
       <div className="produto">
-        <img src={imagPathRe}/>
+        <img src={imagPathRe} width='300px'/>
         <div className="textoadd">
-            <h3 className="text-center">Milho</h3>
-            <p><b>Nome: </b>{nome}</p>
+            <h3 className="text-center">{nome}</h3>
             <p><b>Tipo: </b>{tipo}</p>
             <p><b>Quantidade: </b>{quant}</p>
             <p><b>Preço: </b>R$ {preco}</p>
@@ -20,13 +19,38 @@ function Produto (props) {
         </div>
       </div>
     );
-  }
-
-ReactDOM.render(
-    <Produto nome='Milho' tipo='Grão' quant='159' valid='12' preco='120,00' imgPath='graos/milho.jpg'/> , 
-    document.getElementById('produtos')
-);
-
-function funcao () {
-    alert("Aqui")
 }
+
+function Painel () {
+    return(
+        <div className='painel'>
+            <Produto 
+                nome='Milho' 
+                tipo='Grão' 
+                quant='159' 
+                valid='12' 
+                preco='120,00' 
+                imgPath='graos/milho.jpg'
+            />
+            <Produto 
+                nome='Ração de Galinha' 
+                tipo='Ração' 
+                quant='25' 
+                valid='6' 
+                preco='60,00' 
+                imgPath='racao/racao-galinha1.jpg'
+            />
+            <Produto 
+                nome='Anti inflamatório' 
+                tipo='Remedio/Vacina' 
+                quant='159' 
+                valid='12' 
+                preco='120,00' 
+                imgPath='remedio-vacina/antiinflamatorio1.jpg'
+            />
+        </div>
+    );
+}
+
+ReactDOM.render(<Painel /> , document.getElementById('produtos'));
+
