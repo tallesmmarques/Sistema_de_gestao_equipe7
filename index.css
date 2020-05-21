@@ -25,10 +25,11 @@ h2{
 .titulo:after {
     content: '';
     display: block;
-    width: 120px;
+    width: 130px;
     height: 2px;
     background: #374251;
     margin: 0 auto;
+    margin-top: 8px;
   }
 
 
@@ -228,11 +229,37 @@ width: 100%;
 
 /*PROVAS SOCIAIS*/
 .wrapper-provas {
-    margin: 0 0 100px 0;
+    margin-bottom: 400px;
+}
+
+.card{
+    max-width: 22rem;
 }
 
 /*FORNECEDORES*/
+.retangulo{
+    width: 250px;
+    height: 120px;
+    color: #FFF;
+    padding: 10px 20px;
+    border: 1px solid #374251;
+    transition: .5s;
+    margin-bottom: 30px;
+}
 
+.retangulo:hover {
+    border-color: #a7e66e;
+  }
+
+  img {
+	display: block;
+	max-width: 100%;
+}
+
+.wrapper-parceiros{
+    align-items: center;
+    text-align: center;
+}
 
 /*LOGO*/
 
