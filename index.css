@@ -40,6 +40,7 @@ header{
 
 .dropdown-menu{
     align-self: auto;
+    left: 60% !important;
 }
 
 .menu-icon{
