@@ -19,11 +19,59 @@
         <hr/>
         <div class="d-flex justify-content-between textAddBtn">
             <h3>Seus produtos e auterações: </h3>
-            <button 
-                type="button" 
-                class="btn btn-outline-secondary"
-                onclick="funcao()"
-            >+ Adicionar</button>
+            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalExemplo">
+            + Adicionar
+            </button>
+    
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Adicionar Produto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="nomeM" placeholder="Nome"/>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" name="tipoM">
+                                <option>Selecione o tipo:</option>
+                                <option>Grãos</option>
+                                <option>Maquinário</option>
+                                <option>Mudas e Sementes</option>
+                                <option>Rações</option>
+                                <option>Remédio e Vacinas</option>
+                                <option>Variádos</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="quantM" placeholder="Quantidade"/>
+                        </div>
+                        <div class="form-group input-group mb-3">
+                            <input type="text" class="form-control" name="validM" placeholder="Validade"/>
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">meses</span>
+                            </div>
+                        </div>
+                        <div class="form-group input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">R$</span>
+                            </div>
+                            <input type="text" class="form-control" name="precoM" placeholder="Preço"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success" onclick="funcao()" data-dismiss="modal">Adicionar</button>
+                </div>
+                </div>
+            </div>
+            </div>
         </div>
         <div>
             <div id="produtos"></div>
