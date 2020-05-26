@@ -192,6 +192,33 @@ width: 100%;
     font-weight: 700;
 }
 
+/*DUVIDAS FREQUENTES*/
+.botao_duvidas{
+    width: 100%;
+    height: 35px;
+    text-align: left;
+    margin-top: 10px; 
+    text-indent: 1.5em;
+    color: #374251;
+}
+
+.icon_duvidas{
+    color: #374251;
+    font-size: 20px;
+    margin-right: 20px;
+    vertical-align: text-bottom;
+
+}
+
+.resposta{
+    background-color: #dfdfdf;
+}
+
+.resposta p{
+    margin: 0 10px 10px 10px;
+    text-indent: 1.2em;
+    font-size: 16px;
+}
 
 /*FOOTER*/
 .footer-wrapper {
