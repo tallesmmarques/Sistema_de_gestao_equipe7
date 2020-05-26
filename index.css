@@ -307,6 +307,10 @@ width: 100%;
 
   }
 
+.wrapper-somos{
+    margin: 40px 0; 
+}
+
 /*TELA DE LOGIN*/
 .login {
     background-color: #374251;
