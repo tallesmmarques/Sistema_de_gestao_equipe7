@@ -243,11 +243,24 @@ width: 100%;
 }
 
 .dados{
-    text-align: center;
+    text-align: justify;
     color: #374251;
-    font-size: 25px;
+    font-size: 16px;
     align-self: center;
     vertical-align: center;
+}
+
+.dados_central{
+    text-align: center; 
+    font-size: 18px;
+    color: #374251;
+}
+
+.icon_dados{
+    color: #374251;
+    font-size: 40px;
+    vertical-align: text-bottom;
+    text-align: right;
 }
 
 /*FOOTER*/
