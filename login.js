@@ -6,7 +6,7 @@ function Login() {
   senha=senha.toLowerCase();
   if (usuario=="cooperado@exemplo.com") {
     if(senha=="123") {
-      window.location="produtos.html";
+      window.location="index.html";
       done=1;
     }
     else {done=2}
@@ -20,7 +20,7 @@ function Login() {
   }
   if (usuario=="cliente@exemplo.com") {
     if(senha=="123") {
-      window.location="produtos.html";
+      window.location="index.html";
       done=1;
     }
     else {done=2}
@@ -36,7 +36,27 @@ function Register() {
     var cargo= document.getElementsByName('cargo')[0].value;
     
     if (nome && usuario && senha && cargo) {
+      if (cargo == "Cooperado") {
+        codigo = prompt("Insira o código de verificação para Cooperado:", "");
+        if (codigo == "soucooperado123") {
+          alert("Seja bem vindo " + nome +", você terá privilégios de " + cargo + ".");
+        }
+        else {
+          alert("Código inválido");
+        }
+      }
+      if (cargo == "Gerente") {
+        codigo = prompt("Insira o código de verificação para Gerente:", "");
+        if (codigo == "sougerente123") {
+          alert("Seja bem vindo " + nome +", você terá privilégios de " + cargo + ".");
+        }
+        else {
+          alert("Código inválido");
+        }
+      }
+      if (cargo == "Cliente") {
         alert("Seja bem vindo " + nome +", você terá privilégios de " + cargo + ".");
+      }
     }
     else {
         alert('Existem campos vazios!');
