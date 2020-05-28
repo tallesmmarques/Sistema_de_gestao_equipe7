@@ -50,7 +50,7 @@ function Topbar () {
             <a className="nav-item nav-link" href="fale_conosco.html">Fale conosco</a>
             <a className="nav-item nav-link" href="sing_in.html">Entrar</a>
             <a className="nav-item nav-link" href="sing_up.html">Registrar</a>
-            <a className="nav-item nav-link" href="#">Meu carrinho   <ion-icon name="cart-outline"></ion-icon></a>
+            <a className="nav-item nav-link" href="carrinho.html">Meu carrinho   <ion-icon name="cart-outline"></ion-icon></a>
 
           </div>
         </div>
@@ -98,20 +98,7 @@ ReactDOM.render(<Topbar />, document.getElementById('topbar') );
 function Footer () {
   return (
       <div className="footer-wrapper">
-          <div className="row">
-              <div className="col-10 navbar">
-                  <ul className="nav justify-content-center">
-                      <li className="nav-item">
-                      <a className="nav-link active" href="quem_somos">Sobre nós</a>
-                      </li>
-                      <li className="nav-item">
-                      <a className="nav-link active" href="fale_conosco">Fale conosco</a>
-                      </li>
-                      <li className="nav-item">
-                      <a className="nav-link active" href="#">alguma coisa</a>
-                      </li>
-                  </ul>
-              </div>
+          <div className="row direita">
               <div className="col-2 navbar">
                 <a className="nav-link active mx-auto" target="_blank" href="https://www.instagram.com/cpe.jr/"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
                 <a className="nav-link active mx-auto" target="_blank" href="https://cpejr.com.br//site/"><img src="./imagens/logo-cpe.png" alt="logo-cpe" height="30px" width="30px" /></a>
