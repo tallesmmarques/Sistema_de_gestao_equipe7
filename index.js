@@ -129,7 +129,7 @@ function Topbar() {
           ),
           React.createElement(
             "a",
-            { className: "nav-item nav-link", href: "#" },
+            { className: "nav-item nav-link", href: "carrinho.html" },
             "Meu carrinho   ",
             React.createElement("ion-icon", { name: "cart-outline" })
           )
@@ -209,42 +209,7 @@ function Footer() {
     { className: "footer-wrapper" },
     React.createElement(
       "div",
-      { className: "row" },
-      React.createElement(
-        "div",
-        { className: "col-10 navbar" },
-        React.createElement(
-          "ul",
-          { className: "nav justify-content-center" },
-          React.createElement(
-            "li",
-            { className: "nav-item" },
-            React.createElement(
-              "a",
-              { className: "nav-link active", href: "quem_somos" },
-              "Sobre n\xF3s"
-            )
-          ),
-          React.createElement(
-            "li",
-            { className: "nav-item" },
-            React.createElement(
-              "a",
-              { className: "nav-link active", href: "fale_conosco" },
-              "Fale conosco"
-            )
-          ),
-          React.createElement(
-            "li",
-            { className: "nav-item" },
-            React.createElement(
-              "a",
-              { className: "nav-link active", href: "#" },
-              "alguma coisa"
-            )
-          )
-        )
-      ),
+      { className: "row direita" },
       React.createElement(
         "div",
         { className: "col-2 navbar" },
