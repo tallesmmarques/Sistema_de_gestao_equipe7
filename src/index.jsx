@@ -1,3 +1,4 @@
+//TOPBARS
 function TopbarAntiga () {
   return (
     <div className="topbar wrapper">
@@ -13,43 +14,43 @@ function TopbarAntiga () {
 }
 function Topbar () {
   return (
-    <div class="container" id="nav-container">
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div className="container" id="nav-container">
+      <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
           
         <a href="index.html" className="navbar-brand"><img className="brand" src="imagens/logo.png" alt="logo"/></a>
         
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" >
-          <span class="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" >
+          <span className="navbar-toggler-icon"></span>
         </button> 
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-          <div class="navbar-nav">
+        <div className="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div className="navbar-nav">
 
-            <a class="nav-item dropdown nav-link" href="index.html">Home</a>
-            <a class="nav-item dropdown nav-link" href="quem_somos.html">Quem somos</a>
+            <a className="nav-item dropdown nav-link" href="index.html">Home</a>
+            <a className="nav-item dropdown nav-link" href="quem_somos.html">Quem somos</a>
 
                  
-            <a class="nav-item nav-link dropdown-toggle center-content-end" href="#" data-toggle="dropdown" data-target="navbarDropdown" >Produtos<span class="claret"></span></a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item " href="remedios-vacinas.html">Remédios e Vacinas</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="mudas-sementes.html">Mudas e Sementes</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="racoes.html">Rações</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="graos.html">Grãos</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="maquinario.html">Maquinário</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="variados.html">Variados</a>
+            <a className="nav-item nav-link dropdown-toggle center-content-end" href="#" data-toggle="dropdown" data-target="navbarDropdown" >Produtos<span className="claret"></span></a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a className="dropdown-item " href="remedios-vacinas.html">Remédios e Vacinas</a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="mudas-sementes.html">Mudas e Sementes</a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="racoes.html">Rações</a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="graos.html">Grãos</a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="maquinario.html">Maquinário</a>
+              <div className="dropdown-divider"></div>
+              <a className="dropdown-item" href="variados.html">Variados</a>
               
             </div>
 
 
-            <a class="nav-item nav-link" href="fale_conosco.html">Fale conosco</a>
-            <a class="nav-item nav-link" href="sing_in.html">Entrar</a>
-            <a class="nav-item nav-link" href="sing_up.html">Registrar</a>
-            <a class="nav-item nav-link" href="#">Meu carrinho   <ion-icon name="cart-outline"></ion-icon></a>
+            <a className="nav-item nav-link" href="fale_conosco.html">Fale conosco</a>
+            <a className="nav-item nav-link" href="sing_in.html">Entrar</a>
+            <a className="nav-item nav-link" href="sing_up.html">Registrar</a>
+            <a className="nav-item nav-link" href="#">Meu carrinho   <ion-icon name="cart-outline"></ion-icon></a>
 
           </div>
         </div>
@@ -58,6 +59,7 @@ function Topbar () {
   );
 }
 
+//MENU
 function Menu () {
   return (
     <div className="panel-group">
@@ -92,27 +94,28 @@ function Menu () {
 
 ReactDOM.render(<Topbar />, document.getElementById('topbar') );
 
+//RODAPÉ
 function Footer () {
   return (
-      <div class="footer-wrapper">
-          <div class="row">
-              <div class="col-10 navbar">
-                  <ul class="nav justify-content-center">
-                      <li class="nav-item">
-                      <a class="nav-link active" href="quem_somos">Sobre nós</a>
+      <div className="footer-wrapper">
+          <div className="row">
+              <div className="col-10 navbar">
+                  <ul className="nav justify-content-center">
+                      <li className="nav-item">
+                      <a className="nav-link active" href="quem_somos">Sobre nós</a>
                       </li>
-                      <li class="nav-item">
-                      <a class="nav-link active" href="fale_conosco">Fale conosco</a>
+                      <li className="nav-item">
+                      <a className="nav-link active" href="fale_conosco">Fale conosco</a>
                       </li>
-                      <li class="nav-item">
-                      <a class="nav-link active" href="#">alguma coisa</a>
+                      <li className="nav-item">
+                      <a className="nav-link active" href="#">alguma coisa</a>
                       </li>
                   </ul>
               </div>
-              <div class="col-2 navbar">
-                <a class="nav-link active mx-auto" target="_blank" href="https://www.instagram.com/cpe.jr/"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
-                <a class="nav-link active mx-auto" target="_blank" href="https://cpejr.com.br/site/"><img src="./imagens/logo-cpe.png" alt="logo-cpe" height="30px" width="30px" /></a>
-                <a class="nav-link active mx-auto" target="_blank" href="https://github.com/TallesMMarques/Sistema_de_gestao_equipe7"><ion-icon name="logo-github" size="large"></ion-icon></a>
+              <div className="col-2 navbar">
+                <a className="nav-link active mx-auto" target="_blank" href="https://www.instagram.com/cpe.jr/"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+                <a className="nav-link active mx-auto" target="_blank" href="https://cpejr.com.br//site/"><img src="./imagens/logo-cpe.png" alt="logo-cpe" height="30px" width="30px" /></a>
+                <a className="nav-link active mx-auto" target="_blank" href="https://github.com/TallesMMarques/Sistema_de_gestao_equipe7"><ion-icon name="logo-github" size="large"></ion-icon></a>
               </div>
           </div>
       </div>
@@ -120,3 +123,36 @@ function Footer () {
 }
 
 ReactDOM.render(<Footer />, document.getElementById('footer'));
+
+//PARALLAX 
+function Parallax () {
+  return (
+    <div className="contato parallax">
+      <div className="container">
+      <div className="row">
+        <div className="col-12">
+          <div className="titulo">ENTRE EM CONTATO CONOSCO</div>
+        </div>
+        <div className="col-1 dados"><ion-icon name="home-outline" className="icon_dados"></ion-icon></div>
+        <div className="col-5 dados">Avenida Presidente Antônio Carlos, 6627 - Sala 112, Campus Pampulha, Belo Horizonte/MG.</div>
+        <div className="col-1"></div>
+        <div className="col-1 dados"><ion-icon name="time-outline" className="icon_dados"></ion-icon></div>
+        <div className="col-4 dados">Seg à Sex: 7:00 às 13:00 e 15:00 às 22:30<br/>Sábado: 8:30 às 15:30</div>
+        <br/><br/><br/><br/><br/><br/>
+        <div className="col-1 dados"><ion-icon name="call-outline" className="icon_dados"></ion-icon></div>
+        <div className="col-5 dados">(31) 3409-6695<br/>(31) 7284-0484</div>
+        <div className="col-1 dados"></div>
+        <div className="col-1 dados"><ion-icon name="mail-outline" className="icon_dados"></ion-icon></div>
+        <div className="col-4 dados">contato@copperpe.com.br/</div>
+
+        <div className="col-12 dados_central">
+          <br/><p>Você pode também estar preenchendo um formulário com sua dúvida</p>
+          <a type="submit" className="btn btn-primary" href="fale_conosco.html">Fale Conosco</a>
+        </div>
+      </div>
+      </div>
+    </div>
+  );
+} 
+
+ReactDOM.render(<Parallax />, document.getElementById('parallax'));

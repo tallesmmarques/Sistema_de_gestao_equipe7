@@ -1,3 +1,4 @@
+//TOPBARS
 function TopbarAntiga() {
   return React.createElement(
     "div",
@@ -36,10 +37,10 @@ function TopbarAntiga() {
 function Topbar() {
   return React.createElement(
     "div",
-    { "class": "container", id: "nav-container" },
+    { className: "container", id: "nav-container" },
     React.createElement(
       "nav",
-      { "class": "navbar navbar-expand-lg fixed-top navbar-dark" },
+      { className: "navbar navbar-expand-lg fixed-top navbar-dark" },
       React.createElement(
         "a",
         { href: "index.html", className: "navbar-brand" },
@@ -47,88 +48,88 @@ function Topbar() {
       ),
       React.createElement(
         "button",
-        { "class": "navbar-toggler", type: "button", "data-toggle": "collapse", "data-target": "#navbar-links", "aria-controls": "navbar-links" },
-        React.createElement("span", { "class": "navbar-toggler-icon" })
+        { className: "navbar-toggler", type: "button", "data-toggle": "collapse", "data-target": "#navbar-links", "aria-controls": "navbar-links" },
+        React.createElement("span", { className: "navbar-toggler-icon" })
       ),
       React.createElement(
         "div",
-        { "class": "collapse navbar-collapse justify-content-end", id: "navbar-links" },
+        { className: "collapse navbar-collapse justify-content-end", id: "navbar-links" },
         React.createElement(
           "div",
-          { "class": "navbar-nav" },
+          { className: "navbar-nav" },
           React.createElement(
             "a",
-            { "class": "nav-item dropdown nav-link", href: "index.html" },
+            { className: "nav-item dropdown nav-link", href: "index.html" },
             "Home"
           ),
           React.createElement(
             "a",
-            { "class": "nav-item dropdown nav-link", href: "quem_somos.html" },
+            { className: "nav-item dropdown nav-link", href: "quem_somos.html" },
             "Quem somos"
           ),
           React.createElement(
             "a",
-            { "class": "nav-item nav-link dropdown-toggle center-content-end", href: "#", "data-toggle": "dropdown", "data-target": "navbarDropdown" },
+            { className: "nav-item nav-link dropdown-toggle center-content-end", href: "#", "data-toggle": "dropdown", "data-target": "navbarDropdown" },
             "Produtos",
-            React.createElement("span", { "class": "claret" })
+            React.createElement("span", { className: "claret" })
           ),
           React.createElement(
             "div",
-            { "class": "dropdown-menu", "aria-labelledby": "navbarDropdown" },
+            { className: "dropdown-menu", "aria-labelledby": "navbarDropdown" },
             React.createElement(
               "a",
-              { "class": "dropdown-item ", href: "remedios-vacinas.html" },
+              { className: "dropdown-item ", href: "remedios-vacinas.html" },
               "Rem\xE9dios e Vacinas"
             ),
-            React.createElement("div", { "class": "dropdown-divider" }),
+            React.createElement("div", { className: "dropdown-divider" }),
             React.createElement(
               "a",
-              { "class": "dropdown-item", href: "mudas-sementes.html" },
+              { className: "dropdown-item", href: "mudas-sementes.html" },
               "Mudas e Sementes"
             ),
-            React.createElement("div", { "class": "dropdown-divider" }),
+            React.createElement("div", { className: "dropdown-divider" }),
             React.createElement(
               "a",
-              { "class": "dropdown-item", href: "racoes.html" },
+              { className: "dropdown-item", href: "racoes.html" },
               "Ra\xE7\xF5es"
             ),
-            React.createElement("div", { "class": "dropdown-divider" }),
+            React.createElement("div", { className: "dropdown-divider" }),
             React.createElement(
               "a",
-              { "class": "dropdown-item", href: "graos.html" },
+              { className: "dropdown-item", href: "graos.html" },
               "Gr\xE3os"
             ),
-            React.createElement("div", { "class": "dropdown-divider" }),
+            React.createElement("div", { className: "dropdown-divider" }),
             React.createElement(
               "a",
-              { "class": "dropdown-item", href: "maquinario.html" },
+              { className: "dropdown-item", href: "maquinario.html" },
               "Maquin\xE1rio"
             ),
-            React.createElement("div", { "class": "dropdown-divider" }),
+            React.createElement("div", { className: "dropdown-divider" }),
             React.createElement(
               "a",
-              { "class": "dropdown-item", href: "variados.html" },
+              { className: "dropdown-item", href: "variados.html" },
               "Variados"
             )
           ),
           React.createElement(
             "a",
-            { "class": "nav-item nav-link", href: "fale_conosco.html" },
+            { className: "nav-item nav-link", href: "fale_conosco.html" },
             "Fale conosco"
           ),
           React.createElement(
             "a",
-            { "class": "nav-item nav-link", href: "sing_in.html" },
+            { className: "nav-item nav-link", href: "sing_in.html" },
             "Entrar"
           ),
           React.createElement(
             "a",
-            { "class": "nav-item nav-link", href: "sing_up.html" },
+            { className: "nav-item nav-link", href: "sing_up.html" },
             "Registrar"
           ),
           React.createElement(
             "a",
-            { "class": "nav-item nav-link", href: "#" },
+            { className: "nav-item nav-link", href: "#" },
             "Meu carrinho   ",
             React.createElement("ion-icon", { name: "cart-outline" })
           )
@@ -138,6 +139,7 @@ function Topbar() {
   );
 }
 
+//MENU
 function Menu() {
   return React.createElement(
     "div",
@@ -200,43 +202,44 @@ function Menu() {
 
 ReactDOM.render(React.createElement(Topbar, null), document.getElementById('topbar'));
 
+//RODAPÉ
 function Footer() {
   return React.createElement(
     "div",
-    { "class": "footer-wrapper" },
+    { className: "footer-wrapper" },
     React.createElement(
       "div",
-      { "class": "row" },
+      { className: "row" },
       React.createElement(
         "div",
-        { "class": "col-10 navbar" },
+        { className: "col-10 navbar" },
         React.createElement(
           "ul",
-          { "class": "nav justify-content-center" },
+          { className: "nav justify-content-center" },
           React.createElement(
             "li",
-            { "class": "nav-item" },
+            { className: "nav-item" },
             React.createElement(
               "a",
-              { "class": "nav-link active", href: "quem_somos" },
+              { className: "nav-link active", href: "quem_somos" },
               "Sobre n\xF3s"
             )
           ),
           React.createElement(
             "li",
-            { "class": "nav-item" },
+            { className: "nav-item" },
             React.createElement(
               "a",
-              { "class": "nav-link active", href: "fale_conosco" },
+              { className: "nav-link active", href: "fale_conosco" },
               "Fale conosco"
             )
           ),
           React.createElement(
             "li",
-            { "class": "nav-item" },
+            { className: "nav-item" },
             React.createElement(
               "a",
-              { "class": "nav-link active", href: "#" },
+              { className: "nav-link active", href: "#" },
               "alguma coisa"
             )
           )
@@ -244,20 +247,20 @@ function Footer() {
       ),
       React.createElement(
         "div",
-        { "class": "col-2 navbar" },
+        { className: "col-2 navbar" },
         React.createElement(
           "a",
-          { "class": "nav-link active mx-auto", target: "_blank", href: "https://www.instagram.com/cpe.jr/" },
+          { className: "nav-link active mx-auto", target: "_blank", href: "https://www.instagram.com/cpe.jr/" },
           React.createElement("ion-icon", { name: "logo-instagram", size: "large" })
         ),
         React.createElement(
           "a",
-          { "class": "nav-link active mx-auto", target: "_blank", href: "https://cpejr.com.br/site/" },
+          { className: "nav-link active mx-auto", target: "_blank", href: "https://cpejr.com.br//site/" },
           React.createElement("img", { src: "./imagens/logo-cpe.png", alt: "logo-cpe", height: "30px", width: "30px" })
         ),
         React.createElement(
           "a",
-          { "class": "nav-link active mx-auto", target: "_blank", href: "https://github.com/TallesMMarques/Sistema_de_gestao_equipe7" },
+          { className: "nav-link active mx-auto", target: "_blank", href: "https://github.com/TallesMMarques/Sistema_de_gestao_equipe7" },
           React.createElement("ion-icon", { name: "logo-github", size: "large" })
         )
       )
@@ -266,3 +269,97 @@ function Footer() {
 }
 
 ReactDOM.render(React.createElement(Footer, null), document.getElementById('footer'));
+
+//PARALLAX 
+function Parallax() {
+  return React.createElement(
+    "div",
+    { className: "contato parallax" },
+    React.createElement(
+      "div",
+      { className: "container" },
+      React.createElement(
+        "div",
+        { className: "row" },
+        React.createElement(
+          "div",
+          { className: "col-12" },
+          React.createElement(
+            "div",
+            { className: "titulo" },
+            "ENTRE EM CONTATO CONOSCO"
+          )
+        ),
+        React.createElement(
+          "div",
+          { className: "col-1 dados" },
+          React.createElement("ion-icon", { name: "home-outline", className: "icon_dados" })
+        ),
+        React.createElement(
+          "div",
+          { className: "col-5 dados" },
+          "Avenida Presidente Ant\xF4nio Carlos, 6627 - Sala 112, Campus Pampulha, Belo Horizonte/MG."
+        ),
+        React.createElement("div", { className: "col-1" }),
+        React.createElement(
+          "div",
+          { className: "col-1 dados" },
+          React.createElement("ion-icon", { name: "time-outline", className: "icon_dados" })
+        ),
+        React.createElement(
+          "div",
+          { className: "col-4 dados" },
+          "Seg \xE0 Sex: 7:00 \xE0s 13:00 e 15:00 \xE0s 22:30",
+          React.createElement("br", null),
+          "S\xE1bado: 8:30 \xE0s 15:30"
+        ),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement(
+          "div",
+          { className: "col-1 dados" },
+          React.createElement("ion-icon", { name: "call-outline", className: "icon_dados" })
+        ),
+        React.createElement(
+          "div",
+          { className: "col-5 dados" },
+          "(31) 3409-6695",
+          React.createElement("br", null),
+          "(31) 7284-0484"
+        ),
+        React.createElement("div", { className: "col-1 dados" }),
+        React.createElement(
+          "div",
+          { className: "col-1 dados" },
+          React.createElement("ion-icon", { name: "mail-outline", className: "icon_dados" })
+        ),
+        React.createElement(
+          "div",
+          { className: "col-4 dados" },
+          "contato@copperpe.com.br/"
+        ),
+        React.createElement(
+          "div",
+          { className: "col-12 dados_central" },
+          React.createElement("br", null),
+          React.createElement(
+            "p",
+            null,
+            "Voc\xEA pode tamb\xE9m estar preenchendo um formul\xE1rio com sua d\xFAvida"
+          ),
+          React.createElement(
+            "a",
+            { type: "submit", className: "btn btn-primary", href: "fale_conosco.html" },
+            "Fale Conosco"
+          )
+        )
+      )
+    )
+  );
+}
+
+ReactDOM.render(React.createElement(Parallax, null), document.getElementById('parallax'));
