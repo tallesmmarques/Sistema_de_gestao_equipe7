@@ -256,6 +256,11 @@ header{
     height: 80px;
 }
 
+.direita{
+    text-align: right;
+    justify-content: flex-end;
+}
+
 /*CARD*/
 .card-body {
     text-align: center;
@@ -394,6 +399,13 @@ header{
 p.extra_msn{
     color: gray;
 } /*esqueceu senha?, não tem registro, etc...*/
+
+/* CARRINHO */
+.meucarrinho{
+    text-align: center;
+    width: 100px;
+    height: 365px;
+}
 
 /* PRODUTOS */
 .centralizar{
