@@ -107,7 +107,8 @@ header{
 /*CARROSSEL*/
   
 .carousel-inner, .carousel-item {
-    height: 100%;
+    height: 90vh;
+    margin-bottom: 30px;
   }
   
 .carousel-caption {
@@ -117,6 +118,7 @@ header{
 .carousel-caption h2 {
     font-size: 40px;
     margin-bottom: 30px;
+    margin-top: 15px;
   }
  
 .carousel-caption p {
@@ -148,27 +150,6 @@ header{
 .carousel-indicators .active {
     background-color: #374251;
   } 
-
-
-/*CARDS*/
-#cards{
-    width: 60rem;
-    align-items: center;
-    text-align: center;
-    align-self: center;
-}
-
-
-/*SERVIÇOS*/
-
-.tituloservicos{
-color: #374251;
-margin: 30px 0 60px 0;
-font-size: 35px;
-text-align: center;
-text-decoration: underline;
-width: 100%;
-}
 
 /*CONTEUDO*/
 .conteudo{
@@ -247,6 +228,12 @@ width: 100%;
     font-size: 16px;
     align-self: center;
     vertical-align: center;
+    margin-bottom: 30px;
+}
+
+.col-5{
+    margin-left: -40px;
+    margin-right: 40px;
 }
 
 .dados_central{
@@ -283,6 +270,16 @@ width: 100%;
     text-align: justify;
 }
 
+/*PROVAS SOCIAIS*/
+.wrapper-provas {
+    margin-bottom: 400px;
+}
+
+.card{
+    max-width: 22rem;
+    margin-bottom: 50px;
+}
+
 /*SERVIÇOS*/
 .servicos{
     color: #374251;
@@ -302,15 +299,6 @@ width: 100%;
     color: #a7e66e;
 } 
 
-/*PROVAS SOCIAIS*/
-.wrapper-provas {
-    margin-bottom: 400px;
-}
-
-.card{
-    max-width: 22rem;
-    margin-bottom: 50px;
-}
 
 /*FORNECEDORES*/
 .retangulo{
@@ -318,7 +306,7 @@ width: 100%;
     height: 120px;
     color: #FFF;
     padding: 10px 20px;
-    border: 1px solid #374251;
+    border: 1px solid lightgray;
     transition: .5s;
 }
 
@@ -445,128 +433,154 @@ p.extra_msn{
     transform: scale(1.1);
 }
 
-h5{
-    color: #A0A0A0;
-}
-
 
 /* RESPONSIVO */
 
 /*MEDIA QUERTES*/
-@media only screen and (max-width:1500px){
-    .carousel-caption{
-        padding-bottom: 8px;
-    }
-    #carouselFull{
-        height: 600px;
-    }
-}
+@media only screen and (max-width:768px){
 
-@media only screen and (max-width:1199px){
+    /*Carrossel*/
+    .carousel-inner, .carousel-item {
+        height: 70vh;
+      }
+
     .carousel-caption  h2 {
-        margin-top: 20px;
-        font-size: 40px;
-    }
-    .carousel-caption p{
-        font-size: 30px;
-    }
-    .carousel-control-prev {
-        margin-top: -300px;
-        padding: -300px 0;
-    
-    }
-    .carousel-control-next {
-        margin-top: -300px;
-        padding: -300px 0;
-    
-    }
-    #carouselFull{
-        height: 480px;
-    }
-}
-
-@media only screen and (max-width:991px){
-    .botao {
-        width: 50px;
-        height: 30px;
-        padding: 5px 10px;
-    }
-    #carouselFull{
-        height: 400px;
-    }
-}
-
-@media only screen and (max-width:767px){
-    .carousel-caption  h2 {
-        margin-top: -40px;
-        font-size: 30px;
+        margin-top: 10px;
+        font-size: 28px;
     }
     .carousel-caption p{
         font-size: 18px;
     }
-    .carousel-caption{
-        padding-bottom: 8px;
+
+    /*Geral*/
+    .titulo{
+        margin: 20px 0 30px 0;
+        font-size: 28px;  
     }
-    .carousel-control-prev {
-        margin-top: -400px;
-    
+
+    /*Nossos serviços*/
+    .wrapper-serviços .col-md-4{
+        width: 50%;
+        margin: 20px 0 20px 0;
     }
-    .carousel-control-next {
-        margin-top: -400px;
-    
+
+   /*Empresas Parceiras*/
+    .wrapper-parceiros .col-md-4{
+        margin-bottom: 10px;
     }
-    #carouselFull{
-        height: 300px;
+
+    /*Parallax*/
+    .dados{
+        font-size: 14px;
     }
+
+    .dados_central{
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (max-width:575px){
-    .carousel-caption  h2 {
-        margin-top:-30px;
-        font-size: 20px;
-    }
-    .carousel-caption p{
-        display: none;
-    }
-    .botao {
-        width: 10px;
-        height: 5px;
-        padding: 2px 3px;
-    }
-    .carousel-control-prev {
-        margin-top: -450px;
-    
-    }
-    .carousel-control-next {
-        margin-top: -450px;
-    
-    }
-    #carouselFull{
-        height: 220px;
-    }
+/*Carrossel*/
+.carousel-inner, .carousel-item {
+    height: 50vh;
+  }
+
+.carousel-caption  h2 {
+    margin-top: 5px;
+    font-size: 24px;
+}
+.carousel-caption p{
+    font-size: 14px;
+}
 }
 
-@media only screen and (max-width:420px){
-    .carousel-caption  h2 {
-        margin-top:-30px;
-        font-size: 15px;
-    }
+@media only screen and (max-width:430px){
 
-    .botao {
-        display: none;
+/*Carrossel*/
+.carousel-inner, .carousel-item {
+        height: 40vh;
+        width: 100%;
     }
+    
+.carousel-caption  h2 {
+        margin-top: 0;
+        font-size: 18px;
+}
 
-    .carousel-control-prev {
-        margin-top: -480px;
-    
-    }
-    .carousel-control-next {
-        margin-top: -480px;
-    
-    }
-    #carouselFull{
-        height: 165px;
-    }
+.carousel-caption p{
+        font-size: 12px;
+}
+
+.botao {
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 14px;
+  }
+
+
+/*Geral*/
+.titulo{
+    margin: 10px 0 15px 0;
+    font-size: 24px;  
+}
+
+/*Cards*/
+.card{
+    width: 300px;
+}
+.card h5{
+    font-size: 18px;
+}
+.card p{
+    font-size: 14px;
+}
+
+/*Nossos serviços*/
+.wrapper-serviços .col-md-4{
+    width: 50%;
+    margin: 20px 0 20px 0;
+}
+.servicos{
+    font-size: 35px;
+}
+.service-box h4{
+    font-size: 18px;
+}
+.service-box p{
+    font-size: 14px;
+}
+/*Empresas Parceiras*/
+.wrapper-parceiros .col-md-4{
+    margin-bottom: 10px;
+}
+
+/*Parallax*/
+.dados{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.dados_central{
+    font-size: 16px;
+}
+
+.icon_dados{
+    font-size: 25px;
+}
+.col-1{
+    margin-left: 70px;
+}
+
+.col-5{
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+
 }
 
 /*===============================================
