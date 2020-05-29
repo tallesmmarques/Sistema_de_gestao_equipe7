@@ -204,24 +204,28 @@ function Footer() {
     { className: "footer-wrapper" },
     React.createElement(
       "div",
-      { className: "row direita" },
+      { className: "row" },
       React.createElement(
         "div",
-        { className: "col-2 navbar" },
+        { className: "col-12 d-flex navbar justify-content-end" },
         React.createElement(
-          "a",
-          { className: "nav-link active mx-auto", target: "_blank", href: "https://www.instagram.com/cpe.jr/" },
-          React.createElement("ion-icon", { name: "logo-instagram", size: "large" })
-        ),
-        React.createElement(
-          "a",
-          { className: "nav-link active mx-auto", target: "_blank", href: "https://cpejr.com.br//site/" },
-          React.createElement("img", { src: "./imagens/logo-cpe.png", alt: "logo-cpe", height: "30px", width: "30px" })
-        ),
-        React.createElement(
-          "a",
-          { className: "nav-link active mx-auto", target: "_blank", href: "https://github.com/TallesMMarques/Sistema_de_gestao_equipe7" },
-          React.createElement("ion-icon", { name: "logo-github", size: "large" })
+          "ul",
+          { className: "nav" },
+          React.createElement(
+            "a",
+            { className: "nav-link active mx-auto", href: "https://www.instagram.com/cpe.jr/" },
+            React.createElement("ion-icon", { name: "logo-instagram", size: "large" })
+          ),
+          React.createElement(
+            "a",
+            { className: "nav-link active mx-auto", href: "https://cpejr.com.br//site/" },
+            React.createElement("img", { src: "./imagens/logo-cpe.png", alt: "logo-cpe", height: "30px", width: "30px" })
+          ),
+          React.createElement(
+            "a",
+            { className: "nav-link active mx-auto", href: "https://github.com/TallesMMarques/Sistema_de_gestao_equipe7" },
+            React.createElement("ion-icon", { name: "logo-github", size: "large" })
+          )
         )
       )
     )

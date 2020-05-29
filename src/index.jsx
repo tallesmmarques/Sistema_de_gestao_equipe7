@@ -95,11 +95,13 @@ ReactDOM.render(<Topbar />, document.getElementById('topbar') );
 function Footer () {
   return (
       <div className="footer-wrapper">
-          <div className="row direita">
-              <div className="col-2 navbar">
-                <a className="nav-link active mx-auto" target="_blank" href="https://www.instagram.com/cpe.jr/"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
-                <a className="nav-link active mx-auto" target="_blank" href="https://cpejr.com.br//site/"><img src="./imagens/logo-cpe.png" alt="logo-cpe" height="30px" width="30px" /></a>
-                <a className="nav-link active mx-auto" target="_blank" href="https://github.com/TallesMMarques/Sistema_de_gestao_equipe7"><ion-icon name="logo-github" size="large"></ion-icon></a>
+          <div className="row">
+              <div className="col-12 d-flex navbar justify-content-end">
+                <ul className="nav">
+                  <a className="nav-link active mx-auto" href="https://www.instagram.com/cpe.jr/"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+                  <a className="nav-link active mx-auto" href="https://cpejr.com.br//site/"><img src="./imagens/logo-cpe.png" alt="logo-cpe" height="30px" width="30px" /></a>
+                  <a className="nav-link active mx-auto" href="https://github.com/TallesMMarques/Sistema_de_gestao_equipe7"><ion-icon name="logo-github" size="large"></ion-icon></a>
+                </ul>
               </div>
           </div>
       </div>
