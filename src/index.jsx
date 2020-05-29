@@ -120,20 +120,17 @@ function Parallax () {
         <div className="col-12">
           <div className="titulo">ENTRE EM CONTATO CONOSCO</div>
         </div>
-        <div className="col-1 dados"><ion-icon name="home-outline" className="icon_dados"></ion-icon></div>
+        <div className="col-1 dados"><ion-icon name="home-outline" class="icon_dados"></ion-icon></div>
         <div className="col-5 dados">Avenida Presidente Antônio Carlos, 6627 - Sala 112, Campus Pampulha, Belo Horizonte/MG.</div>
-        <div className="col-1"></div>
-        <div className="col-1 dados"><ion-icon name="time-outline" className="icon_dados"></ion-icon></div>
-        <div className="col-4 dados">Seg à Sex: 7:00 às 13:00 e 15:00 às 22:30<br/>Sábado: 8:30 às 15:30</div>
-        <br/><br/><br/><br/><br/><br/>
-        <div className="col-1 dados"><ion-icon name="call-outline" className="icon_dados"></ion-icon></div>
+        <div className="col-1 dados"><ion-icon name="time-outline" class="icon_dados"></ion-icon></div>
+        <div className="col-5 dados">Seg à Sex: 7:00 às 13:00 e 15:00 às 22:30<br/>Sábado: 8:30 às 15:30</div>
+        <div className="col-1 dados"><ion-icon name="call-outline" class="icon_dados"></ion-icon></div>
         <div className="col-5 dados">(31) 3409-6695<br/>(31) 7284-0484</div>
-        <div className="col-1 dados"></div>
-        <div className="col-1 dados"><ion-icon name="mail-outline" className="icon_dados"></ion-icon></div>
-        <div className="col-4 dados">contato@copperpe.com.br/</div>
+        <div className="col-1 dados"><ion-icon name="mail-outline" class="icon_dados"></ion-icon></div>
+        <div className="col-5 dados">contato@copperpe.com.br/</div>
 
         <div className="col-12 dados_central">
-          <br/><p>Você pode também estar preenchendo um formulário com sua dúvida</p>
+          <p>Você pode também estar preenchendo um formulário com sua dúvida</p>
           <a type="submit" className="btn btn-primary" href="fale_conosco.html">Fale Conosco</a>
         </div>
       </div>
