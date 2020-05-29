@@ -186,6 +186,11 @@ header{
     color: #374251;
 }
 
+.botao_duvidas:hover{
+    color: white;
+    background-color: #374251;
+}
+
 .icon_duvidas{
     color: #374251;
     font-size: 20px;
@@ -438,7 +443,7 @@ p.extra_msn{
 
 /*MEDIA QUERTES*/
 @media only screen and (max-width:768px){
-
+    /*INDEX*/
     /*Carrossel*/
     .carousel-inner, .carousel-item {
         height: 70vh;
@@ -471,12 +476,23 @@ p.extra_msn{
 
     /*Parallax*/
     .dados{
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .dados_central{
         font-size: 16px;
     }
+    
+    .col-5{
+        margin-left: -25px;
+        margin-right: 15px;
+    }
+    .icon_dados{
+        font-size: 30px;
+    }
+
+    /*QUEM SOMOS*/
+
 
 }
 

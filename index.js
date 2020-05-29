@@ -114,11 +114,6 @@ function Topbar() {
           ),
           React.createElement(
             "a",
-            { className: "nav-item nav-link", href: "fale_conosco.html" },
-            "Fale conosco"
-          ),
-          React.createElement(
-            "a",
             { className: "nav-item nav-link", href: "sing_in.html" },
             "Entrar"
           ),
@@ -258,36 +253,29 @@ function Parallax() {
         React.createElement(
           "div",
           { className: "col-1 dados" },
-          React.createElement("ion-icon", { name: "home-outline", className: "icon_dados" })
+          React.createElement("ion-icon", { name: "home-outline", "class": "icon_dados" })
         ),
         React.createElement(
           "div",
           { className: "col-5 dados" },
           "Avenida Presidente Ant\xF4nio Carlos, 6627 - Sala 112, Campus Pampulha, Belo Horizonte/MG."
         ),
-        React.createElement("div", { className: "col-1" }),
         React.createElement(
           "div",
           { className: "col-1 dados" },
-          React.createElement("ion-icon", { name: "time-outline", className: "icon_dados" })
+          React.createElement("ion-icon", { name: "time-outline", "class": "icon_dados" })
         ),
         React.createElement(
           "div",
-          { className: "col-4 dados" },
+          { className: "col-5 dados" },
           "Seg \xE0 Sex: 7:00 \xE0s 13:00 e 15:00 \xE0s 22:30",
           React.createElement("br", null),
           "S\xE1bado: 8:30 \xE0s 15:30"
         ),
-        React.createElement("br", null),
-        React.createElement("br", null),
-        React.createElement("br", null),
-        React.createElement("br", null),
-        React.createElement("br", null),
-        React.createElement("br", null),
         React.createElement(
           "div",
           { className: "col-1 dados" },
-          React.createElement("ion-icon", { name: "call-outline", className: "icon_dados" })
+          React.createElement("ion-icon", { name: "call-outline", "class": "icon_dados" })
         ),
         React.createElement(
           "div",
@@ -296,21 +284,19 @@ function Parallax() {
           React.createElement("br", null),
           "(31) 7284-0484"
         ),
-        React.createElement("div", { className: "col-1 dados" }),
         React.createElement(
           "div",
           { className: "col-1 dados" },
-          React.createElement("ion-icon", { name: "mail-outline", className: "icon_dados" })
+          React.createElement("ion-icon", { name: "mail-outline", "class": "icon_dados" })
         ),
         React.createElement(
           "div",
-          { className: "col-4 dados" },
+          { className: "col-5 dados" },
           "contato@copperpe.com.br/"
         ),
         React.createElement(
           "div",
           { className: "col-12 dados_central" },
-          React.createElement("br", null),
           React.createElement(
             "p",
             null,
