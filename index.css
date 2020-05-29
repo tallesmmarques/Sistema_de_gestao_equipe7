@@ -492,8 +492,42 @@ p.extra_msn{
     }
 
     /*QUEM SOMOS*/
+    .wrapper-somos .img-fluid{
+        margin-top: 180px;
+    }
+    .wrapper-somos{
+        margin-bottom: -50px;
+    }
 
+    /*ARTIGO SEJA UM COOPERADO*/
+    .artigo{
+        width: 80%;
+    }
+    
+    .artigo img{
+        width: 75%;
+    }
 
+    /*TELA DE LOGIN*/
+    .login {
+        width: 60%;
+        border-radius: 10px;
+        margin: 40px 0 10px 0;
+    }
+    .login h2{
+        font-size: 22px;
+    }
+    .login form{
+        margin: 10px;
+    }
+    
+    /*PRODUTOS*/
+    .card-body h4{
+        font-size: 16px;
+    }
+    .card-body h5{
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width:575px){
@@ -574,6 +608,41 @@ p.extra_msn{
     margin-bottom: 10px;
 }
 
+/*QUEM SOMOS*/
+.wrapper-somos .img-fluid{
+    margin: 10px 0 20px 0;
+}
+.wrapper-somos{
+    margin-bottom: -50px;
+}
+
+/*ARTIGO SEJA UM COOPERADO*/
+.artigo{
+    width: 80%;
+}
+        
+.artigo img{
+    width: 90%;
+}
+.artigo .col-6 p{
+    font-size: 13px;
+}
+.artigo .col-6 h4{
+    font-size: 14px;
+}
+
+/*ARTIGO DÚVIDAS*/
+.botao_duvidas{
+    height: 45px;
+    font-size: 14px;
+}
+.icon_duvidas{
+    font-size: 18px;
+}
+.resposta p{
+    font-size: 14px;
+}
+
 /*Parallax*/
 .dados{
     font-size: 12px;
@@ -596,7 +665,22 @@ p.extra_msn{
     margin-right: 40px;
 }
 
+/*TELA DE LOGIN*/
+.login {
+    width: 90%;
+}
 
+/*PRODUTOS*/
+.card-body h4{
+    font-size: 16px;
+}
+.card-body h5{
+    font-size: 14px;
+}
+.zoom{
+    width: 300px;
+    margin-left: 50px;
+}
 }
 
 /*===============================================
