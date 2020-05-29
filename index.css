@@ -186,6 +186,11 @@ header{
     color: #374251;
 }
 
+.botao_duvidas:hover{
+    color: white;
+    background-color: #374251;
+}
+
 .icon_duvidas{
     color: #374251;
     font-size: 20px;

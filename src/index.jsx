@@ -45,9 +45,6 @@ function Topbar () {
               <a className="dropdown-item" href="variados.html">Variados</a>
               
             </div>
-
-
-            <a className="nav-item nav-link" href="fale_conosco.html">Fale conosco</a>
             <a className="nav-item nav-link" href="sing_in.html">Entrar</a>
             <a className="nav-item nav-link" href="sing_up.html">Registrar</a>
             <a className="nav-item nav-link" href="carrinho.html">Meu carrinho   <ion-icon name="cart-outline"></ion-icon></a>

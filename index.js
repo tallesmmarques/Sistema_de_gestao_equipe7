@@ -114,11 +114,6 @@ function Topbar() {
           ),
           React.createElement(
             "a",
-            { className: "nav-item nav-link", href: "fale_conosco.html" },
-            "Fale conosco"
-          ),
-          React.createElement(
-            "a",
             { className: "nav-item nav-link", href: "sing_in.html" },
             "Entrar"
           ),
